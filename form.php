@@ -23,7 +23,7 @@
                                 <div class="card-body p-md-5 text-black">
                                     <h3 class="mb-5 text-uppercase">Student registration form</h3>
 
-                                    <form action="handleForm.php" method="post">
+                                    <form action="handleForm.php" method="post" enctype="multipart/form-data">
                                         <div class="row">
                                             <div class="col-md-6 mb-4">
                                                 <div class="form-outline">
@@ -112,6 +112,10 @@
                                         <div class="form-outline mb-4">
                                             <input type="text" name="email" id="form3Example97" class="form-control form-control-lg" />
                                             <label class="form-label" for="form3Example97">Email ID</label>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <input type="file" id="form3Example8" name="img" class="form-control form-control-lg" />
+                                            <label class="form-label" for="form3Example8">Upload Image</label>
                                         </div>
 
                                         <div class="d-flex justify-content-end pt-3">
