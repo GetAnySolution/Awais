@@ -1,10 +1,11 @@
-<?php 
-
+<?php
+include 'config.php';
 if (isset($_POST['register'])) {
     $fileName = $_FILES['img']['name'];
     $tmpName = $_FILES['img']['tmp_name'];
     $type = $_FILES['img']['type'];
     echo $fileName;
+    print_r($_POST);
 
     if ($type == 'image/jpg' || $type == 'image/png' || $type == 'image/jpeg') {
 
@@ -27,37 +28,37 @@ if (isset($_POST['register'])) {
 ?>
 
 
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
 
-<body>
-    <h1>Form Handling</h1>
-    <img width="250" height="250" src="uploads/<?php echo $fileName?>" alt="">
-    <pre>
+    <body>
+        <h1>Form Handling</h1>
+        <img width="250" height="250" src="uploads/<?php echo $fileName ?>" alt="">
+        <pre>
 
 <?php
-// $ab = null;;
-// echo isset($_POST['register']);
-// if(false){
+    // $ab = null;;
+    // echo isset($_POST['register']);
+    // if(false){
 
-// echo false;
+    // echo false;
 
-// }else{
+    // }else{
 
-// echo "False";
-
-
-// }
+    // echo "False";
 
 
-// if (isset($_POST['register'])) {
+    // }
+
+
+    // if (isset($_POST['register'])) {
 
 
 
@@ -67,36 +68,35 @@ if (isset($_POST['register'])) {
 
 ?>
 
-<?php 
-// print_r($_POST);
-    // print_r($_FILES) ?>
+<?php
+    // print_r($_POST);
+    // print_r($_FILES) 
+?>
 </pre>
-    <h2>Hello <?php echo "$_POST[fname] $_POST[lname] ";
+        <h2>Hello <?php echo "$_POST[fname] $_POST[lname] ";
 
-                echo $_POST['city'];
-
-
-                ?>
+                    echo $_POST['city'];
 
 
-
-    </h2>
-    <?php
-   
-
-    ?>
+                    ?>
 
 
 
+        </h2>
+        <?php
 
 
-</body>
-
-</html>
-<?php }else{
+        ?>
 
 
-echo "<script> window.location.href = 'form.php' </script>";
 
 
+
+    </body>
+
+    </html>
+<?php } else {
+
+
+    echo "<script> window.location.href = 'form.php' </script>";
 } ?>
