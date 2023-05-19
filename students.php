@@ -9,6 +9,9 @@ $res = mysqli_query($conn, $query);
 
 
 ?>
+
+<a href="update.php?stdid=6"><button>Update</button></a>
+
 <table border="5" cellpadding = "20">
 
     <tr>
@@ -21,6 +24,7 @@ $res = mysqli_query($conn, $query);
         <th>State</th>
         <th>City</th>
         <th>Picture</th>
+        <th>Update/Delete</th>
 
     </tr>
 
@@ -50,6 +54,8 @@ $res = mysqli_query($conn, $query);
 <td><?php echo $row['state']?></td>
 <td><?php echo $row['city']?></td>
 <td><img height="100" width="100" src="uploads/<?php echo $row['picture']?>" alt=""> </td>
+<td> <a href="update.php?stdID=<?php echo $row['id']?>"><button class="btn btn-primary"> Update </button></a> 
+ <a href="delete.php"><button class="btn btn-danger"> Delete </button></a> </td>
 
 
 
