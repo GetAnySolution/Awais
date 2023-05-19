@@ -55,7 +55,7 @@ $res = mysqli_query($conn, $query);
 <td><?php echo $row['city']?></td>
 <td><img height="100" width="100" src="uploads/<?php echo $row['picture']?>" alt=""> </td>
 <td> <a href="update.php?stdID=<?php echo $row['id']?>"><button class="btn btn-primary"> Update </button></a> 
- <a href="delete.php"><button class="btn btn-danger"> Delete </button></a> </td>
+ <a href="delete.php?delID=<?php echo $row['id']?>"><button class="btn btn-danger"> Delete </button></a> </td>
 
 
 
