@@ -2,8 +2,9 @@
 <html lang="en">
 
 
-<!-- Mirrored from freshcart.codescandy.com/dashboard/categories.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:08 GMT -->
+<!-- Mirrored from freshcart.codescandy.com/dashboard/add-product.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:27 GMT -->
 <head>
+
   <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -34,12 +35,14 @@
 <link rel="stylesheet" href="../assets/css/theme.min.css">
 
 
+  <link href="../assets/libs/dropzone/dist/min/dropzone.min.css" rel="stylesheet">
+
   <title>Dashboard</title>
 </head>
 
 <body>
-
   <!-- main wrapper -->
+
   <nav class="navbar navbar-expand-lg navbar-glass">
     <div class="container-fluid">
         <div class="d-flex justify-content-between align-items-center w-100">
@@ -215,14 +218,13 @@
     </div>
     </div>
 </nav>
-
   <div class="main-wrapper">
     <!-- navbar vertical -->
     
             <nav class="navbar-vertical-nav d-none d-xl-block ">
                 <div class="navbar-vertical">
                                 <div class="px-4 py-5">
-                                    <a href="../index.html" class="navbar-brand">
+                                    <a href="../index.php" class="navbar-brand">
                                         <img src="../assets/images/logo/freshcart-logo.svg" alt="">
                                     </a>
                                 </div>
@@ -230,7 +232,7 @@
                                     <ul class="navbar-nav flex-column" id="sideNavbar">
 
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="index.html" >
+                                            <a class="nav-link " href="index.php" >
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-house"></i></span>
                                                     <span class="nav-link-text">Dashboard</span>
@@ -240,7 +242,7 @@
                                         <li class="nav-item mt-6 mb-3">
                                             <span class="nav-label">Store Managements</span></li>
                                         <li class="nav-item ">
-                                            <a class="nav-link "  href="products.html">
+                                            <a class="nav-link  active "  href="products.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-cart"></i></span>
                                                     <span class="nav-link-text">Products</span>
@@ -248,7 +250,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link  active " href="categories.html">
+                                            <a class="nav-link " href="categories.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-list-task"></i></span>
                                                     <span class="nav-link-text">Categories</span>
@@ -269,14 +271,14 @@
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item ">
                                                         <a class="nav-link "
-                                                            href="order-list.html">
+                                                            href="order-list.php">
                                                             List
                                                         </a>
                                                     </li>
                                                     <!-- Nav item -->
                                                     <li class="nav-item ">
                                                         <a class="nav-link "
-                                                            href="order-single.html">
+                                                            href="order-single.php">
                                                             Single
 
                                                         </a>
@@ -286,7 +288,7 @@
                                         </li>
 
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="vendor-grid.html">
+                                            <a class="nav-link " href="vendor-grid.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-shop"></i></span>
                                                     <span class="nav-link-text">Sellers / Vendors</span>
@@ -294,7 +296,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="customers.html">
+                                            <a class="nav-link " href="customers.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-people"></i></span>
                                                     <span class="nav-link-text">Customers</span>
@@ -302,7 +304,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="reviews.html">
+                                            <a class="nav-link " href="reviews.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-star"></i></span>
                                                     <span class="nav-link-text">Reviews</span>
@@ -461,7 +463,7 @@
                             <nav class="navbar-vertical-nav offcanvas offcanvas-start navbar-offcanvac" tabindex="-1" id="offcanvasExample" >
                                 <div class="navbar-vertical">
                                                 <div class="px-4 py-5 d-flex justify-content-between align-items-center">
-                                                    <a href="../index.html" class="navbar-brand">
+                                                    <a href="../index.php" class="navbar-brand">
                                                         <img src="../assets/images/logo/freshcart-logo.svg" alt="">
                                                     </a>
                                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -469,7 +471,7 @@
                                                 <div class="navbar-vertical-content flex-grow-1" data-simplebar="">
                                                     <ul class="navbar-nav flex-column">
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="index.html" >
+                                                            <a class="nav-link " href="index.php" >
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-house"></i></span>
                                                                     <span>Dashboard</span>
@@ -479,7 +481,7 @@
                                                         <li class="nav-item mt-6 mb-3">
                                                             <span class="nav-label">Store Managements</span></li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link "  href="products.html">
+                                                            <a class="nav-link  active "  href="products.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-cart"></i></span>
                                                                     <span class="nav-link-text">Products</span>
@@ -487,7 +489,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link  active " href="categories.html">
+                                                            <a class="nav-link " href="categories.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-list-task"></i></span>
                                                                     <span class="nav-link-text">Categories</span>
@@ -508,14 +510,14 @@
                                                                 <ul class="nav flex-column">
                                                                     <li class="nav-item ">
                                                                         <a class="nav-link "
-                                                                            href="order-list.html">
+                                                                            href="order-list.php">
                                                                             List
                                                                         </a>
                                                                     </li>
                                                                     <!-- Nav item -->
                                                                     <li class="nav-item ">
                                                                         <a class="nav-link "
-                                                                            href="order-single.html">
+                                                                            href="order-single.php">
                                                                             Single
 
                                                                         </a>
@@ -524,7 +526,7 @@
                                                             </div>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="vendor-grid.html">
+                                                            <a class="nav-link " href="vendor-grid.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-shop"></i></span>
                                                                     <span class="nav-link-text">Sellers / Vendors</span>
@@ -532,7 +534,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="customers.html">
+                                                            <a class="nav-link " href="customers.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-people"></i></span>
                                                                     <span class="nav-link-text">Customers</span>
@@ -540,7 +542,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="reviews.html">
+                                                            <a class="nav-link " href="reviews.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-star"></i></span>
                                                                     <span class="nav-link-text">Reviews</span>
@@ -689,403 +691,185 @@
 
     <!-- main -->
     <main class="main-content-wrapper">
+      <!-- container -->
       <div class="container">
         <!-- row -->
         <div class="row mb-8">
           <div class="col-md-12">
             <div class="d-md-flex justify-content-between align-items-center">
-              <!-- pageheader -->
+              <!-- page header -->
               <div>
-                <h2>Categories</h2>
-                 <!-- breacrumb -->
-                 <nav aria-label="breadcrumb">
+                <h2>Add New Product</h2>
+                  <!-- breacrumb -->
+                  <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a href="#" class="text-inherit">Dashboard</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Categories</li>
+                    <li class="breadcrumb-item"><a href="#" class="text-inherit">Products</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Add New Product</li>
                   </ol>
                 </nav>
               </div>
               <!-- button -->
               <div>
-                <a href="add-category.html" class="btn btn-primary">Add New Category</a>
+                <a href="products.php" class="btn btn-light">Back to Product</a>
               </div>
             </div>
+
           </div>
         </div>
-        <div class="row ">
-          <div class="col-xl-12 col-12 mb-5">
+        <!-- row -->
+        <div class="row">
+
+          <div class="col-lg-8 col-12">
             <!-- card -->
-            <div class="card h-100 card-lg">
-              <div class=" px-6 py-6 ">
-                <div class="row justify-content-between">
-                  <div class="col-lg-4 col-md-6 col-12 mb-2 mb-md-0">
-                    <!-- form -->
-                    <form class="d-flex" role="search">
-                      <input class="form-control" type="search" placeholder="Search Category" aria-label="Search">
-                    </form>
+            <div class="card mb-6 card-lg">
+              <!-- card body -->
+              <div class="card-body p-6 ">
+                <h4 class="mb-4 h5">Product Information</h4>
+                <div class="row">
+                  <!-- input -->
+                  <div class="mb-3 col-lg-6">
+                    <label class="form-label">Title</label>
+                    <input type="text" class="form-control" placeholder="Product Name" required>
                   </div>
-                  <!-- select option -->
-                  <div class="col-xl-2 col-md-4 col-12">
+                  <!-- input -->
+                  <div class="mb-3 col-lg-6">
+                    <label class="form-label">Product Category</label>
                     <select class="form-select">
-                      <option selected>Status</option>
-                      <option value="Published">Published</option>
-                      <option value="Unpublished">Unpublished</option>
+                      <option selected>Product Category</option>
+                      <option value="Dairy, Bread & Eggs">Dairy, Bread & Eggs</option>
+                      <option value="Snacks & Munchies">Snacks & Munchies</option>
+                      <option value="Fruits & Vegetables">Fruits & Vegetables</option>
                     </select>
                   </div>
+                  <!-- input -->
+                  <div class="mb-3 col-lg-6">
+                    <label class="form-label">Weight</label>
+                    <input type="text" class="form-control" placeholder="Weight" required>
+                  </div>
+                  <!-- input -->
+                  <div class="mb-3 col-lg-6">
+                    <label class="form-label">Units</label>
+                    <select class="form-select">
+                      <option selected>Select Units</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                  </div>
+                  <div>
+                    <div class="mb-3 col-lg-12 mt-5">
+                      <!-- heading -->
+                      <h4 class="mb-3 h5">Product Images</h4>
+
+                      <!-- input -->
+                      <form action="#" class="d-block dropzone border-dashed rounded-2 ">
+                        <div class="fallback">
+                          <input name="file" type="file" multiple>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <!-- input -->
+                  <div class="mb-3 col-lg-12 mt-5">
+                    <h4 class="mb-3 h5">Product Descriptions</h4>
+                    <div class="py-8" id="editor"></div>
+                  </div>
                 </div>
-              </div>
-              <!-- card body -->
-              <div class="card-body p-0">
-                <!-- table -->
-                <div class="table-responsive ">
-                  <table class="table table-centered table-hover mb-0 text-nowrap table-borderless table-with-checkbox">
-                    <thead class="bg-light">
-                      <tr>
-                        <th>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="checkAll">
-                            <label class="form-check-label" for="checkAll">
-
-                            </label>
-                          </div>
-                        </th>
-                        <th>Icon</th>
-                        <th> Name</th>
-                        <th>Proudct</th>
-                        <th>Status</th>
-
-                        <th></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-
-                        <td>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="categoryOne">
-                            <label class="form-check-label" for="categoryOne">
-
-                            </label>
-                          </div>
-                        </td>
-                        <td>
-                          <a href="#!"> <img src="../assets/images/icons/snacks.svg" alt=""
-                              class="icon-shape icon-sm"></a>
-                        </td>
-                        <td><a href="#" class="text-reset">Snack & Munchies</a></td>
-                        <td>12</td>
-
-                        <td>
-                          <span class="badge bg-light-primary text-dark-primary">Published</span>
-                        </td>
-
-                        <td>
-                          <div class="dropdown">
-                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="feather-icon icon-more-vertical fs-5"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="categoryTwo">
-                            <label class="form-check-label" for="categoryTwo">
-
-                            </label>
-                          </div>
-                        </td>
-                        <td>
-                          <a href="#!"> <img src="../assets/images/icons/bakery.svg" alt=""
-                              class="icon-shape icon-sm"></a>
-                        </td>
-                        <td><a href="#" class="text-reset">Bakery & Biscuits</a></td>
-                        <td>8</td>
-
-                        <td>
-                          <span class="badge bg-light-primary text-dark-primary">Published</span>
-                        </td>
-
-                        <td>
-                          <div class="dropdown">
-                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="feather-icon icon-more-vertical fs-5"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="categoryThree">
-                            <label class="form-check-label" for="categoryThree">
-
-                            </label>
-                          </div>
-                        </td>
-                        <td>
-                          <a href="#!"> <img src="../assets/images/icons/baby-food.svg" alt=""
-                              class="icon-shape icon-sm"></a>
-                        </td>
-                        <td><a href="#" class="text-reset">Baby Care</a></td>
-                        <td>32</td>
-
-                        <td>
-                          <span class="badge bg-light-primary text-dark-primary">Published</span>
-                        </td>
-
-                        <td>
-                          <div class="dropdown">
-                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="feather-icon icon-more-vertical fs-5"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="categoryFour">
-                            <label class="form-check-label" for="categoryFour">
-
-                            </label>
-                          </div>
-                        </td>
-                        <td>
-                          <a href="#!"> <img src="../assets/images/icons/wine.svg" alt=""
-                              class="icon-shape icon-sm"></a>
-                        </td>
-                        <td><a href="#" class="text-reset">Cold Drinks & Juices</a></td>
-                        <td>34</td>
-
-                        <td>
-                          <span class="badge bg-light-primary text-dark-primary">Published</span>
-                        </td>
-
-                        <td>
-                          <div class="dropdown">
-                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="feather-icon icon-more-vertical fs-5"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="categoryFive">
-                            <label class="form-check-label" for="categoryFive">
-
-                            </label>
-                          </div>
-                        </td>
-                        <td>
-                          <a href="#!"> <img src="../assets/images/icons/toiletries.svg" alt=""
-                              class="icon-shape icon-sm"></a>
-                        </td>
-                        <td><a href="#" class="text-reset">Toiletries</a></td>
-                        <td>23</td>
-
-                        <td>
-                          <span class="badge bg-light-danger text-dark-danger">Unpublished</span>
-                        </td>
-
-                        <td>
-                          <div class="dropdown">
-                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="feather-icon icon-more-vertical fs-5"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="categorySeven">
-                            <label class="form-check-label" for="categorySeven">
-
-                            </label>
-                          </div>
-                        </td>
-                        <td>
-                          <a href="#!"> <img src="../assets/images/icons/dairy.svg" alt=""
-                              class="icon-shape icon-sm"></a>
-                        </td>
-                        <td><a href="#" class="text-reset">Dairy, Bread & Eggs</a></td>
-                        <td>16</td>
-
-                        <td>
-                          <span class="badge bg-light-primary text-dark-primary">Published</span>
-                        </td>
-
-                        <td>
-                          <div class="dropdown">
-                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="feather-icon icon-more-vertical fs-5"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="categoryEight">
-                            <label class="form-check-label" for="categoryEight">
-
-                            </label>
-                          </div>
-                        </td>
-                        <td>
-                          <a href="#!"> <img src="../assets/images/icons/fish.svg" alt=""
-                              class="icon-shape icon-sm"></a>
-                        </td>
-                        <td><a href="#" class="text-reset">Chicken, Meat & Fish</a></td>
-                        <td>14</td>
-
-                        <td>
-                          <span class="badge bg-light-primary text-dark-primary">Published</span>
-                        </td>
-
-                        <td>
-                          <div class="dropdown">
-                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="feather-icon icon-more-vertical fs-5"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="categoryNine">
-                            <label class="form-check-label" for="categoryNine">
-
-                            </label>
-                          </div>
-                        </td>
-                        <td>
-                          <a href="#!"> <img src="../assets/images/icons/fruit.svg" alt=""
-                              class="icon-shape icon-sm"></a>
-                        </td>
-                        <td><a href="#" class="text-reset">Fruits & Vegetables</a></td>
-                        <td>32</td>
-
-                        <td>
-                          <span class="badge bg-light-primary text-dark-primary">Published</span>
-                        </td>
-
-                        <td>
-                          <div class="dropdown">
-                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="feather-icon icon-more-vertical fs-5"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="categoryTen">
-                            <label class="form-check-label" for="categoryTen">
-
-                            </label>
-                          </div>
-                        </td>
-                        <td>
-                          <a href="#!"> <img src="../assets/images/icons/petfoods.svg" alt=""
-                              class="icon-shape icon-sm"></a>
-                        </td>
-                        <td><a href="#" class="text-reset">Pet Food</a></td>
-                        <td>25</td>
-
-                        <td>
-                          <span class="badge bg-light-danger text-dark-danger">Unpublished</span>
-                        </td>
-
-                        <td>
-                          <div class="dropdown">
-                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="feather-icon icon-more-vertical fs-5"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
-                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                </div>
-              </div>
-              <div class="border-top d-md-flex justify-content-between align-items-center  px-6 py-6">
-                <span>Showing 1 to 8 of 12 entries</span>
-                <nav class="mt-2 mt-md-0">
-                  <ul class="pagination mb-0 ">
-                    <li class="page-item disabled"><a class="page-link " href="#!">Previous</a></li>
-                    <li class="page-item"><a class="page-link active" href="#!">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#!">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#!">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#!">Next</a></li>
-                  </ul>
-                </nav>
               </div>
             </div>
+
           </div>
+          <div class="col-lg-4 col-12">
+            <!-- card -->
+            <div class="card mb-6 card-lg">
+              <!-- card body -->
+              <div class="card-body p-6">
+                <!-- input -->
+                <div class="form-check form-switch mb-4">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchStock" checked>
+                  <label class="form-check-label" for="flexSwitchStock">In Stock</label>
+                </div>
+                <!-- input -->
+                <div>
+                  <div class="mb-3">
+                    <label class="form-label">Product Code</label>
+                    <input type="text" class="form-control" placeholder="Enter Product Title">
+                  </div>
+                  <!-- input -->
+                  <div class="mb-3">
+                    <label class="form-label">Product SKU</label>
+                    <input type="text" class="form-control" placeholder="Enter Product Title">
+                  </div>
+                  <!-- input -->
+                  <div class="mb-3">
+                    <label class="form-label" id="productSKU">Status</label><br>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="option1" checked>
+                      <label class="form-check-label" for="inlineRadio1">Active</label>
+                    </div>
+                    <!-- input -->
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                      <label class="form-check-label" for="inlineRadio2">Disabled</label>
+                    </div>
+                    <!-- input -->
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- card -->
+            <div class="card mb-6 card-lg">
+              <!-- card body -->
+              <div class="card-body p-6">
+                <h4 class="mb-4 h5">Product Price</h4>
+                <!-- input -->
+                <div class="mb-3">
+                  <label class="form-label">Regular Price</label>
+                  <input type="text" class="form-control" placeholder="$0.00">
+                </div>
+                <!-- input -->
+                <div class="mb-3">
+                  <label class="form-label">Sale Price</label>
+                  <input type="text" class="form-control" placeholder="$0.00">
+                </div>
+
+              </div>
+            </div>
+            <!-- card -->
+            <div class="card mb-6 card-lg">
+              <!-- card body -->
+              <div class="card-body p-6">
+                <h4 class="mb-4 h5">Meta Data</h4>
+                <!-- input -->
+                <div class="mb-3">
+                  <label class="form-label">Meta Title</label>
+                  <input type="text" class="form-control" placeholder="Title">
+                </div>
+
+                <!-- input -->
+                <div class="mb-3">
+                  <label class="form-label">Meta Description</label>
+                  <textarea class="form-control" rows="3" placeholder="Meta Description"></textarea>
+                </div>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="d-grid">
+              <a href="#" class="btn btn-primary">
+                Create Product
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
     </main>
+
   </div>
 
 
@@ -1096,9 +880,12 @@
 
 <!-- Theme JS -->
 <script src="../assets/js/theme.min.js"></script>
+  <script src="../assets/libs/quill/dist/quill.min.js"></script>
+  <script src="../assets/js/vendors/editor.js"></script>
+  <script src="../assets/libs/dropzone/dist/min/dropzone.min.js"></script>
 
 </body>
 
 
-<!-- Mirrored from freshcart.codescandy.com/dashboard/categories.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:11 GMT -->
+<!-- Mirrored from freshcart.codescandy.com/dashboard/add-product.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:27 GMT -->
 </html>

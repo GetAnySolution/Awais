@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from freshcart.codescandy.com/dashboard/vendor-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:11 GMT -->
+<!-- Mirrored from freshcart.codescandy.com/dashboard/customers.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:12 GMT -->
 <head>
   <!-- Required meta tags -->
 <meta charset="utf-8">
@@ -40,7 +40,6 @@
 <body>
 
 
-    <!-- main wrapper -->
     <nav class="navbar navbar-expand-lg navbar-glass">
     <div class="container-fluid">
         <div class="d-flex justify-content-between align-items-center w-100">
@@ -222,7 +221,7 @@
             <nav class="navbar-vertical-nav d-none d-xl-block ">
                 <div class="navbar-vertical">
                                 <div class="px-4 py-5">
-                                    <a href="../index.html" class="navbar-brand">
+                                    <a href="../index.php" class="navbar-brand">
                                         <img src="../assets/images/logo/freshcart-logo.svg" alt="">
                                     </a>
                                 </div>
@@ -230,7 +229,7 @@
                                     <ul class="navbar-nav flex-column" id="sideNavbar">
 
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="index.html" >
+                                            <a class="nav-link " href="index.php" >
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-house"></i></span>
                                                     <span class="nav-link-text">Dashboard</span>
@@ -240,7 +239,7 @@
                                         <li class="nav-item mt-6 mb-3">
                                             <span class="nav-label">Store Managements</span></li>
                                         <li class="nav-item ">
-                                            <a class="nav-link "  href="products.html">
+                                            <a class="nav-link "  href="products.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-cart"></i></span>
                                                     <span class="nav-link-text">Products</span>
@@ -248,7 +247,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="categories.html">
+                                            <a class="nav-link " href="categories.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-list-task"></i></span>
                                                     <span class="nav-link-text">Categories</span>
@@ -269,14 +268,14 @@
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item ">
                                                         <a class="nav-link "
-                                                            href="order-list.html">
+                                                            href="order-list.php">
                                                             List
                                                         </a>
                                                     </li>
                                                     <!-- Nav item -->
                                                     <li class="nav-item ">
                                                         <a class="nav-link "
-                                                            href="order-single.html">
+                                                            href="order-single.php">
                                                             Single
 
                                                         </a>
@@ -286,7 +285,7 @@
                                         </li>
 
                                         <li class="nav-item ">
-                                            <a class="nav-link  active " href="vendor-grid.html">
+                                            <a class="nav-link " href="vendor-grid.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-shop"></i></span>
                                                     <span class="nav-link-text">Sellers / Vendors</span>
@@ -294,7 +293,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="customers.html">
+                                            <a class="nav-link  active " href="customers.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-people"></i></span>
                                                     <span class="nav-link-text">Customers</span>
@@ -302,7 +301,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="reviews.html">
+                                            <a class="nav-link " href="reviews.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-star"></i></span>
                                                     <span class="nav-link-text">Reviews</span>
@@ -461,7 +460,7 @@
                             <nav class="navbar-vertical-nav offcanvas offcanvas-start navbar-offcanvac" tabindex="-1" id="offcanvasExample" >
                                 <div class="navbar-vertical">
                                                 <div class="px-4 py-5 d-flex justify-content-between align-items-center">
-                                                    <a href="../index.html" class="navbar-brand">
+                                                    <a href="../index.php" class="navbar-brand">
                                                         <img src="../assets/images/logo/freshcart-logo.svg" alt="">
                                                     </a>
                                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -469,7 +468,7 @@
                                                 <div class="navbar-vertical-content flex-grow-1" data-simplebar="">
                                                     <ul class="navbar-nav flex-column">
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="index.html" >
+                                                            <a class="nav-link " href="index.php" >
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-house"></i></span>
                                                                     <span>Dashboard</span>
@@ -479,7 +478,7 @@
                                                         <li class="nav-item mt-6 mb-3">
                                                             <span class="nav-label">Store Managements</span></li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link "  href="products.html">
+                                                            <a class="nav-link "  href="products.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-cart"></i></span>
                                                                     <span class="nav-link-text">Products</span>
@@ -487,7 +486,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="categories.html">
+                                                            <a class="nav-link " href="categories.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-list-task"></i></span>
                                                                     <span class="nav-link-text">Categories</span>
@@ -508,14 +507,14 @@
                                                                 <ul class="nav flex-column">
                                                                     <li class="nav-item ">
                                                                         <a class="nav-link "
-                                                                            href="order-list.html">
+                                                                            href="order-list.php">
                                                                             List
                                                                         </a>
                                                                     </li>
                                                                     <!-- Nav item -->
                                                                     <li class="nav-item ">
                                                                         <a class="nav-link "
-                                                                            href="order-single.html">
+                                                                            href="order-single.php">
                                                                             Single
 
                                                                         </a>
@@ -524,7 +523,7 @@
                                                             </div>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link  active " href="vendor-grid.html">
+                                                            <a class="nav-link " href="vendor-grid.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-shop"></i></span>
                                                                     <span class="nav-link-text">Sellers / Vendors</span>
@@ -532,7 +531,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="customers.html">
+                                                            <a class="nav-link  active " href="customers.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-people"></i></span>
                                                                     <span class="nav-link-text">Customers</span>
@@ -540,7 +539,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="reviews.html">
+                                                            <a class="nav-link " href="reviews.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-star"></i></span>
                                                                     <span class="nav-link-text">Reviews</span>
@@ -687,320 +686,568 @@
                                             </nav>
     
 
-      <!-- main -->
       <main class="main-content-wrapper">
         <div class="container">
           <div class="row mb-8">
             <div class="col-md-12">
-              <!-- pageheader -->
-              <div class="d-flex justify-content-between align-items-center">
+              <div class="d-md-flex justify-content-between align-items-center">
                 <div>
-                  <h2>Vendors</h2>
+                  <h2>Customers</h2>
                     <!-- breacrumb -->
                     <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
                       <li class="breadcrumb-item"><a href="#" class="text-inherit">Dashboard</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Vendors</li>
+                      <li class="breadcrumb-item active" aria-current="page">Customers</li>
                     </ol>
                   </nav>
                 </div>
                 <div>
-                  <!-- button -->
-                  <a href="vendor-grid.html" class="btn btn-primary btn-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
-                      class="bi bi-grid" viewBox="0 0 16 16">
-                      <path
-                        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
-                    </svg>
-                  </a>
-                  <a href="vendor-list.html" class="btn btn-light  btn-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
-                      class="bi bi-list-task" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5H2zM3 3H2v1h1V3z" />
-                      <path
-                        d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9z" />
-                      <path fill-rule="evenodd"
-                        d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z" />
-                    </svg>
-                  </a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <!-- row -->
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 g-lg-6">
-            <!-- col -->
-            <div class="col">
-              <!-- card -->
-              <div class="card border-0 text-center card-lg">
-                <div class="card-body p-6">
-                  <div>
-                    <!-- img -->
-                    <img src="../assets/images/stores-logo/stores-logo-1.svg" alt=""
-                      class="rounded-circle icon-shape icon-xxl mb-6">
-                    <!-- content -->
-                    <h2 class="mb-2 h5"><a href="#!" class="text-inherit">E-Grocery Super Market</a></h2>
-                    <div class="mb-2">Seller ID: #009</div>
-                    <div>heathercarpenter@dayrep.com</div>
-                  </div>
-                  <!-- meta content -->
-                  <div class="row justify-content-center mt-8">
-                    <div class="col">
-                      <div>Gross Sale</div>
-                      <h5 class="mb-0 mt-1">$200.00</h5>
-                    </div>
-                    <div class="col">
-                      <div>Earning</div>
-                      <h5 class="mb-0 mt-1">$200.00</h5>
-                    </div>
-
-                  </div>
-
-
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <!-- card -->
-              <div class="card border-0 text-center card-lg">
-                <div class="card-body p-6">
-                  <div>
-                    <!-- img --><img src="../assets/images/stores-logo/stores-logo-2.svg" alt=""
-                      class="rounded-circle icon-shape icon-xxl mb-6">
-
-                    <!-- content -->
-                    <h2 class="mb-2 h5"><a href="#!" class="text-inherit">DealShare Mart</a></h2>
-                    <div class="mb-2">Seller ID: #008</div>
-                    <div>werve1962@superrito.com</div>
-                  </div>
-                  <!-- meta content -->
-                  <div class="row justify-content-center mt-8">
-                    <div class="col">
-                      <div>Gross Sale</div>
-                      <h5 class="mb-0 mt-1">$350.00</h5>
-                    </div>
-                    <div class="col">
-                      <div>Earning</div>
-                      <h5 class="mb-0 mt-1">$150.00</h5>
-                    </div>
-
-
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <!-- card -->
-              <div class="card border-0 text-center card-lg">
-                <div class="card-body p-6">
-                  <div>
-                    <!-- img --><img src="../assets/images/stores-logo/stores-logo-3.svg" alt=""
-                      class="rounded-circle icon-shape icon-xxl mb-6">
-
-                    <!-- content -->
-                    <h2 class="mb-2 h5"><a href="#!" class="text-inherit">DMart</a></h2>
-                    <div class="mb-2">Seller ID: #007</div>
-                    <div>trablinever@armyspy.com</div>
-                  </div>
-                  <!-- meta content -->
-                  <div class="row justify-content-center mt-8">
-                    <div class="col">
-                      <div>Gross Sale</div>
-                      <h5 class="mb-0 mt-1">$120.00</h5>
-                    </div>
-                    <div class="col">
-                      <div>Earning</div>
-                      <h5 class="mb-0 mt-1">$45.00</h5>
-                    </div>
-
-                  </div>
-
-
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <!-- card -->
-              <div class="card border-0 text-center card-lg">
-                <div class="card-body p-6">
-                  <div>
-                    <!-- img --><img src="../assets/images/stores-logo/stores-logo-4.svg" alt=""
-                      class="rounded-circle icon-shape icon-xxl mb-6">
-
-                    <!-- content -->
-                    <h2 class="mb-2 h5"><a href="#!" class="text-inherit">Blinkit Store</a></h2>
-                    <div class="mb-2">Seller ID: #006</div>
-                    <div>steened@rhyta.com</div>
-                  </div>
-                  <!-- meta content -->
-                  <div class="row justify-content-center mt-8">
-                    <div class="col">
-                      <div>Gross Sale</div>
-                      <h5 class="mb-0 mt-1">$1200.00</h5>
-                    </div>
-                    <div class="col">
-                      <div>Earning</div>
-                      <h5 class="mb-0 mt-1">$400.00</h5>
-                    </div>
-
-
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <!-- card -->
-              <div class="card border-0 text-center card-lg">
-                <div class="card-body p-6">
-                  <div>
-                    <!-- img --><img src="../assets/images/stores-logo/stores-logo-5.svg" alt=""
-                      class="rounded-circle icon-shape icon-xxl mb-6">
-
-                    <!-- content -->
-                    <h2 class="mb-2 h5"><a href="#!" class="text-inherit">StoreFront Super Market</a></h2>
-                    <div class="mb-2">Seller ID: #005</div>
-                    <div>mansper@einrot.com</div>
-                  </div>
-                  <!-- meta content -->
-                  <div class="row justify-content-center mt-8">
-                    <div class="col">
-                      <div>Gross Sale</div>
-                      <h5 class="mb-0 mt-1">$230.00</h5>
-                    </div>
-                    <div class="col">
-                      <div>Earning</div>
-                      <h5 class="mb-0 mt-1">$50.00</h5>
-                    </div>
-
-                  </div>
-
-
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <!-- card -->
-              <div class="card border-0 text-center card-lg">
-                <div class="card-body p-6">
-                  <div>
-                    <!-- img --><img src="../assets/images/stores-logo/stores-logo-6.svg" alt=""
-                      class="rounded-circle icon-shape icon-xxl mb-6">
-
-                    <!-- content -->
-                    <h2 class="mb-2 h5"><a href="#!" class="text-inherit">BigBasket</a></h2>
-                    <div class="mb-2">Seller ID: #004</div>
-                    <div>lizin@armyspy.com</div>
-                  </div>
-                  <!-- meta content -->
-                  <div class="row justify-content-center mt-8">
-                    <div class="col">
-                      <div>Gross Sale</div>
-                      <h5 class="mb-0 mt-1">$560.00</h5>
-                    </div>
-                    <div class="col">
-                      <div>Earning</div>
-                      <h5 class="mb-0 mt-1">$120.00</h5>
-                    </div>
-
-                  </div>
-
-
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <!-- card -->
-              <div class="card border-0 text-center card-lg">
-                <div class="card-body p-6">
-                  <div>
-                    <!-- img --><img src="../assets/images/stores-logo/stores-logo-7.svg" alt=""
-                      class="rounded-circle icon-shape icon-xxl mb-6">
-
-                    <!-- content -->
-                    <h2 class="mb-2 h5"><a href="#!" class="text-inherit">Swiggy Instamart</a></h2>
-                    <div class="mb-2">Seller ID: #003</div>
-                    <div>tured@jourrapide.com</div>
-                  </div>
-                  <!-- meta content -->
-                  <div class="row justify-content-center mt-8">
-                    <div class="col">
-                      <div>Gross Sale</div>
-                      <h5 class="mb-0 mt-1">$780.00</h5>
-                    </div>
-                    <div class="col">
-                      <div>Earning</div>
-                      <h5 class="mb-0 mt-1">$360.00</h5>
-                    </div>
-
-                  </div>
-
-
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <!-- card -->
-              <div class="card border-0 text-center card-lg">
-                <div class="card-body p-6">
-                  <div>
-                    <!-- img --><img src="../assets/images/stores-logo/stores-logo-8.svg" alt=""
-                      class="rounded-circle icon-shape icon-xxl mb-6">
-
-                    <!-- content -->
-                    <h2 class="mb-2 h5"><a href="#!" class="text-inherit">Online Grocery Mart</a></h2>
-                    <div class="mb-2">Seller ID: #002</div>
-                    <div>liturname@einrot.com</div>
-                  </div>
-                  <!-- meta content -->
-                  <div class="row justify-content-center mt-8">
-                    <div class="col">
-                      <div>Gross Sale</div>
-                      <h5 class="mb-0 mt-1">$460.00</h5>
-                    </div>
-                    <div class="col">
-                      <div>Earning</div>
-                      <h5 class="mb-0 mt-1">$175.00</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <!-- card -->
-              <div class="card border-0 text-center card-lg">
-                <div class="card-body p-6">
-                  <div>
-                    <!-- img --><img src="../assets/images/stores-logo/stores-logo-9.svg" alt=""
-                      class="rounded-circle icon-shape icon-xxl mb-6">
-                    <!-- content -->
-                    <h2 class="mb-2 h5"><a href="#!" class="text-inherit">Spencers</a></h2>
-                    <div class="mb-2">Seller ID: #001</div>
-                    <div>fark1952@rhyta.com</div>
-                  </div>
-                  <!-- meta content -->
-                  <div class="row justify-content-center mt-8">
-                    <div class="col">
-                      <div>Gross Sale</div>
-                      <h5 class="mb-0 mt-1">$630.00</h5>
-                    </div>
-                    <div class="col">
-                      <div>Earning</div>
-                      <h5 class="mb-0 mt-1">$190.00</h5>
-                    </div>
-                  </div>
+                  <a href="#!" class="btn btn-primary">Add New Customer</a>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-    
-    </main>
+          <div class="row ">
+            <div class="col-xl-12 col-12 mb-5">
+              <div class="card h-100 card-lg">
 
-  </div>
+                <div class="p-6">
+                  <div class="row justify-content-between">
+                    <div class="col-md-4 col-12">
+                      <form class="d-flex" role="search">
+                        <input class="form-control" type="search" placeholder="Search Customers" aria-label="Search">
+
+                      </form>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="card-body p-0 ">
+
+                  <div class="table-responsive">
+                    <table
+                      class="table table-centered table-hover table-borderless mb-0 table-with-checkbox text-nowrap">
+                      <thead class="bg-light">
+                        <tr>
+                          <th>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="checkAll">
+                              <label class="form-check-label" for="checkAll">
+
+                              </label>
+                            </div>
+                          </th>
+                          <th>Name</th>
+                          <th>Email</th>
+                          <th>Purchase Date</th>
+                          <th>Phone</th>
+                          <th>Spent</th>
+
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+
+                          <td>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="customerOne">
+                              <label class="form-check-label" for="customerOne">
+
+                              </label>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <img src="../assets/images/avatar/avatar-1.jpg" alt=""
+                                class="avatar avatar-xs rounded-circle">
+                              <div class="ms-2">
+                                <a href="#" class="text-inherit">Bonnie Howe</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>bonniehowe@gmail.com</td>
+
+                          <td>
+                            17 May, 2023 at 3:18pm
+                          </td>
+                          <td>-</td>
+                          <td>
+                            $49.00
+                          </td>
+
+                          <td>
+                            <div class="dropdown">
+                              <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="feather-icon icon-more-vertical fs-5"></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+
+                          <td class="pe-0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="customerTwo">
+                              <label class="form-check-label" for="customerTwo">
+
+                              </label>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <img src="../assets/images/avatar/avatar-2.jpg" alt=""
+                                class="avatar avatar-xs rounded-circle">
+                              <div class="ms-2">
+                                <a href="#" class="text-inherit">Judy Nelson</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>judynelson@gmail.com</td>
+
+                          <td>
+                            27 April, 2023 at 2:47pm
+                          </td>
+                          <td>435-239-6436</td>
+                          <td>
+                            $490.00
+                          </td>
+
+                          <td>
+                            <div class="dropdown">
+                              <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="feather-icon icon-more-vertical fs-5"></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+
+                          <td class="pe-0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="customerThree">
+                              <label class="form-check-label" for="customerThree">
+
+                              </label>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <img src="../assets/images/avatar/avatar-3.jpg" alt=""
+                                class="avatar avatar-xs rounded-circle">
+                              <div class="ms-2">
+                                <a href="#" class="text-inherit">John Mattox</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>johnmattox@gmail.com</td>
+
+                          <td>
+                            27 April, 2023 at 2:47pm
+                          </td>
+                          <td>347-424-9526</td>
+                          <td>
+                            $29.00
+                          </td>
+
+                          <td>
+                            <div class="dropdown">
+                              <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="feather-icon icon-more-vertical fs-5"></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+
+                          <td class="pe-0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="customerFour">
+                              <label class="form-check-label" for="customerFour">
+
+                              </label>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <img src="../assets/images/avatar/avatar-4.jpg" alt=""
+                                class="avatar avatar-xs rounded-circle">
+                              <div class="ms-2">
+                                <a href="#" class="text-inherit">Wayne Rossman</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>waynerossman@gmail.com</td>
+
+                          <td>
+                            27 April, 2023 at 2:47pm
+                          </td>
+                          <td>-</td>
+                          <td>
+                            $39.00
+                          </td>
+
+                          <td>
+                            <div class="dropdown">
+                              <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="feather-icon icon-more-vertical fs-5"></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+
+                          <td class="pe-0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="customerFive">
+                              <label class="form-check-label" for="customerFive">
+
+                              </label>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <img src="../assets/images/avatar/avatar-5.jpg" alt=""
+                                class="avatar avatar-xs rounded-circle">
+                              <div class="ms-2">
+                                <a href="#" class="text-inherit">Rhonda Pinson</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>rhondapinson@gmail.com</td>
+
+                          <td>
+                            18 March, 2023 at 2:47pm
+                          </td>
+                          <td>304-471-8451</td>
+                          <td>
+                            $213.00
+                          </td>
+
+                          <td>
+                            <div class="dropdown">
+                              <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="feather-icon icon-more-vertical fs-5"></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+
+                          <td class="pe-0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="customerSix">
+                              <label class="form-check-label" for="customerSix">
+
+                              </label>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <img src="../assets/images/avatar/avatar-6.jpg" alt=""
+                                class="avatar avatar-xs rounded-circle">
+                              <div class="ms-2">
+                                <a href="#" class="text-inherit">John Mattox</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>johnmattox@gmail.com</td>
+
+                          <td>
+                            18 March, 2023 at 2:47pm
+                          </td>
+                          <td>410-636-2682</td>
+                          <td>
+                            $490.00
+                          </td>
+
+                          <td>
+                            <div class="dropdown">
+                              <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="feather-icon icon-more-vertical fs-5"></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+
+                          <td class="pe-0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="customerSeven">
+                              <label class="form-check-label" for="customerSeven">
+
+                              </label>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <img src="../assets/images/avatar/avatar-7.jpg" alt=""
+                                class="avatar avatar-xs rounded-circle">
+                              <div class="ms-2">
+                                <a href="#" class="text-inherit">Wayne Rossman</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>waynerossman@gmail.com</td>
+
+                          <td>
+                            18 March, 2023 at 2:47pm
+                          </td>
+                          <td>845-294-6681</td>
+                          <td>
+                            $39.00
+                          </td>
+
+                          <td>
+                            <div class="dropdown">
+                              <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="feather-icon icon-more-vertical fs-5"></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+
+                          <td class="pe-0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="customerEight">
+                              <label class="form-check-label" for="customerEight">
+
+                              </label>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <img src="../assets/images/avatar/avatar-8.jpg" alt=""
+                                class="avatar avatar-xs rounded-circle">
+                              <div class="ms-2">
+                                <a href="#" class="text-inherit">Richard Shelton</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>richarddhelton@jourrapide.com</td>
+
+                          <td>
+                            12 March, 2023 at 9:47am
+                          </td>
+                          <td>313-887-8495</td>
+                          <td>
+                            $19.00
+                          </td>
+
+                          <td>
+                            <div class="dropdown">
+                              <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="feather-icon icon-more-vertical fs-5"></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+
+                          <td class="pe-0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="customerNine">
+                              <label class="form-check-label" for="customerNine">
+
+                              </label>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <img src="../assets/images/avatar/avatar-9.jpg" alt=""
+                                class="avatar avatar-xs rounded-circle">
+                              <div class="ms-2">
+                                <a href="#" class="text-inherit">Stephanie Morales</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>stephaniemorales@gmail.com</td>
+
+                          <td>
+                            22 Feb, 2023 at 9:47pm
+                          </td>
+                          <td>812-682-1588</td>
+                          <td>
+                            $250.00
+                          </td>
+
+                          <td>
+                            <div class="dropdown">
+                              <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="feather-icon icon-more-vertical fs-5"></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+
+                          <td class="pe-0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="customerTen">
+                              <label class="form-check-label" for="customerTen">
+
+                              </label>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <img src="../assets/images/avatar/avatar-10.jpg" alt=""
+                                class="avatar avatar-xs rounded-circle">
+                              <div class="ms-2">
+                                <a href="#" class="text-inherit">Stephanie Morales</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>stephaniemorales@gmail.com</td>
+
+                          <td>
+                            22 Feb, 2023 at 9:47pm
+                          </td>
+                          <td>812-682-1588</td>
+                          <td>
+                            $250.00
+                          </td>
+
+                          <td>
+                            <div class="dropdown">
+                              <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="feather-icon icon-more-vertical fs-5"></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+
+                          <td class="pe-0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="customerEleven">
+                              <label class="form-check-label" for="customerEleven">
+
+                              </label>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <img src="../assets/images/avatar/avatar-11.jpg" alt=""
+                                class="avatar avatar-xs rounded-circle">
+                              <div class="ms-2">
+                                <a href="#" class="text-inherit">Pasquale Kidd</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td>pasqualekidd@rhyta.com</td>
+
+                          <td>
+                            22 Feb, 2023 at 9:47pm
+                          </td>
+                          <td>336-396-0658</td>
+                          <td>
+                            $159.00
+                          </td>
+
+                          <td>
+                            <div class="dropdown ">
+                              <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="feather-icon icon-more-vertical fs-5"></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+
+                  <div class="border-top d-md-flex justify-content-between align-items-center p-6">
+                    <span>Showing 1 to 8 of 12 entries</span>
+                    <nav class="mt-2 mt-md-0">
+                      <ul class="pagination mb-0 ">
+                        <li class="page-item disabled"><a class="page-link " href="#!">Previous</a></li>
+                        <li class="page-item"><a class="page-link active" href="#!">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">Next</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          </div>
+      </main>
+
+    </div>
 
 
   <!-- Libs JS -->
@@ -1014,5 +1261,5 @@
 </body>
 
 
-<!-- Mirrored from freshcart.codescandy.com/dashboard/vendor-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:12 GMT -->
+<!-- Mirrored from freshcart.codescandy.com/dashboard/customers.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:13 GMT -->
 </html>

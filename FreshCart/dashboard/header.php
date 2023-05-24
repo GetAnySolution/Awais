@@ -14,7 +14,7 @@ if(!isset($_SESSION['admin'])){
 <html lang="en">
 
 
-<!-- Mirrored from freshcart.codescandy.com/dashboard/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:10:42 GMT -->
+<!-- Mirrored from freshcart.codescandy.com/dashboard/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:10:42 GMT -->
 <head>
     <!-- Required meta tags -->
 <meta charset="utf-8">
@@ -172,7 +172,7 @@ if(!isset($_SESSION['admin'])){
         </li>
         <li class="dropdown ms-4">
             <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="../assets/images/avatar/avatar-1.jpg" alt="" class="avatar avatar-md rounded-circle">
+                <img src="adminimg/<?php echo $_SESSION['pic']?>" alt="" class="avatar avatar-md rounded-circle">
             </a>
 
             <div class="dropdown-menu dropdown-menu-end p-0">
@@ -234,7 +234,7 @@ if(!isset($_SESSION['admin'])){
             <nav class="navbar-vertical-nav d-none d-xl-block ">
                 <div class="navbar-vertical">
                                 <div class="px-4 py-5">
-                                    <a href="../index.html" class="navbar-brand">
+                                    <a href="../index.php" class="navbar-brand">
                                         <img src="../assets/images/logo/freshcart-logo.svg" alt="">
                                     </a>
                                 </div>
@@ -242,7 +242,7 @@ if(!isset($_SESSION['admin'])){
                                     <ul class="navbar-nav flex-column" id="sideNavbar">
 
                                         <li class="nav-item ">
-                                            <a class="nav-link  active " href="index.html" >
+                                            <a class="nav-link  active " href="index.php" >
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-house"></i></span>
                                                     <span class="nav-link-text">Dashboard</span>
@@ -252,7 +252,7 @@ if(!isset($_SESSION['admin'])){
                                         <li class="nav-item mt-6 mb-3">
                                             <span class="nav-label">Store Managements</span></li>
                                         <li class="nav-item ">
-                                            <a class="nav-link "  href="products.html">
+                                            <a class="nav-link "  href="products.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-cart"></i></span>
                                                     <span class="nav-link-text">Products</span>
@@ -260,7 +260,7 @@ if(!isset($_SESSION['admin'])){
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="categories.html">
+                                            <a class="nav-link " href="categories.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-list-task"></i></span>
                                                     <span class="nav-link-text">Categories</span>
@@ -281,14 +281,14 @@ if(!isset($_SESSION['admin'])){
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item ">
                                                         <a class="nav-link "
-                                                            href="order-list.html">
+                                                            href="order-list.php">
                                                             List
                                                         </a>
                                                     </li>
                                                     <!-- Nav item -->
                                                     <li class="nav-item ">
                                                         <a class="nav-link "
-                                                            href="order-single.html">
+                                                            href="order-single.php">
                                                             Single
 
                                                         </a>
@@ -298,7 +298,7 @@ if(!isset($_SESSION['admin'])){
                                         </li>
 
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="vendor-grid.html">
+                                            <a class="nav-link " href="vendor-grid.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-shop"></i></span>
                                                     <span class="nav-link-text">Sellers / Vendors</span>
@@ -306,7 +306,7 @@ if(!isset($_SESSION['admin'])){
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="customers.html">
+                                            <a class="nav-link " href="customers.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-people"></i></span>
                                                     <span class="nav-link-text">Customers</span>
@@ -314,7 +314,7 @@ if(!isset($_SESSION['admin'])){
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="reviews.html">
+                                            <a class="nav-link " href="reviews.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-star"></i></span>
                                                     <span class="nav-link-text">Reviews</span>
@@ -473,7 +473,7 @@ if(!isset($_SESSION['admin'])){
                             <nav class="navbar-vertical-nav offcanvas offcanvas-start navbar-offcanvac" tabindex="-1" id="offcanvasExample" >
                                 <div class="navbar-vertical">
                                                 <div class="px-4 py-5 d-flex justify-content-between align-items-center">
-                                                    <a href="../index.html" class="navbar-brand">
+                                                    <a href="../index.php" class="navbar-brand">
                                                         <img src="../assets/images/logo/freshcart-logo.svg" alt="">
                                                     </a>
                                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -481,7 +481,7 @@ if(!isset($_SESSION['admin'])){
                                                 <div class="navbar-vertical-content flex-grow-1" data-simplebar="">
                                                     <ul class="navbar-nav flex-column">
                                                         <li class="nav-item ">
-                                                            <a class="nav-link  active " href="index.html" >
+                                                            <a class="nav-link  active " href="index.php" >
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-house"></i></span>
                                                                     <span>Dashboard</span>
@@ -491,7 +491,7 @@ if(!isset($_SESSION['admin'])){
                                                         <li class="nav-item mt-6 mb-3">
                                                             <span class="nav-label">Store Managements</span></li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link "  href="products.html">
+                                                            <a class="nav-link "  href="products.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-cart"></i></span>
                                                                     <span class="nav-link-text">Products</span>
@@ -499,7 +499,7 @@ if(!isset($_SESSION['admin'])){
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="categories.html">
+                                                            <a class="nav-link " href="categories.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-list-task"></i></span>
                                                                     <span class="nav-link-text">Categories</span>
@@ -520,14 +520,14 @@ if(!isset($_SESSION['admin'])){
                                                                 <ul class="nav flex-column">
                                                                     <li class="nav-item ">
                                                                         <a class="nav-link "
-                                                                            href="order-list.html">
+                                                                            href="order-list.php">
                                                                             List
                                                                         </a>
                                                                     </li>
                                                                     <!-- Nav item -->
                                                                     <li class="nav-item ">
                                                                         <a class="nav-link "
-                                                                            href="order-single.html">
+                                                                            href="order-single.php">
                                                                             Single
 
                                                                         </a>
@@ -536,7 +536,7 @@ if(!isset($_SESSION['admin'])){
                                                             </div>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="vendor-grid.html">
+                                                            <a class="nav-link " href="vendor-grid.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-shop"></i></span>
                                                                     <span class="nav-link-text">Sellers / Vendors</span>
@@ -544,7 +544,7 @@ if(!isset($_SESSION['admin'])){
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="customers.html">
+                                                            <a class="nav-link " href="customers.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-people"></i></span>
                                                                     <span class="nav-link-text">Customers</span>
@@ -552,7 +552,7 @@ if(!isset($_SESSION['admin'])){
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="reviews.html">
+                                                            <a class="nav-link " href="reviews.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-star"></i></span>
                                                                     <span class="nav-link-text">Reviews</span>

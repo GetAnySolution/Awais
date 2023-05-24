@@ -2,10 +2,9 @@
 <html lang="en">
 
 
-<!-- Mirrored from freshcart.codescandy.com/dashboard/add-category.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:27 GMT -->
+<!-- Mirrored from freshcart.codescandy.com/dashboard/order-single.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:11 GMT -->
 <head>
-
-    <!-- Required meta tags -->
+  <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
@@ -35,15 +34,12 @@
 <link rel="stylesheet" href="../assets/css/theme.min.css">
 
 
-    <link href="../assets/libs/dropzone/dist/min/dropzone.min.css" rel="stylesheet">
-
-    <title>Dashboard</title>
+  <title>Dashboard</title>
 </head>
 
 <body>
-   <!-- main wrapper -->
-
-        <nav class="navbar navbar-expand-lg navbar-glass">
+  <!-- main -->
+  <nav class="navbar navbar-expand-lg navbar-glass">
     <div class="container-fluid">
         <div class="d-flex justify-content-between align-items-center w-100">
             <div class="d-flex align-items-center">
@@ -218,14 +214,14 @@
     </div>
     </div>
 </nav>
-       
-        <div class="main-wrapper">
-            <!-- navbar vertical -->
-            
+  <!-- main wrapper -->
+  <div class="main-wrapper">
+    <!-- navbar vertical -->
+    
             <nav class="navbar-vertical-nav d-none d-xl-block ">
                 <div class="navbar-vertical">
                                 <div class="px-4 py-5">
-                                    <a href="../index.html" class="navbar-brand">
+                                    <a href="../index.php" class="navbar-brand">
                                         <img src="../assets/images/logo/freshcart-logo.svg" alt="">
                                     </a>
                                 </div>
@@ -233,7 +229,7 @@
                                     <ul class="navbar-nav flex-column" id="sideNavbar">
 
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="index.html" >
+                                            <a class="nav-link " href="index.php" >
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-house"></i></span>
                                                     <span class="nav-link-text">Dashboard</span>
@@ -243,7 +239,7 @@
                                         <li class="nav-item mt-6 mb-3">
                                             <span class="nav-label">Store Managements</span></li>
                                         <li class="nav-item ">
-                                            <a class="nav-link "  href="products.html">
+                                            <a class="nav-link "  href="products.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-cart"></i></span>
                                                     <span class="nav-link-text">Products</span>
@@ -251,7 +247,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link  active " href="categories.html">
+                                            <a class="nav-link " href="categories.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-list-task"></i></span>
                                                     <span class="nav-link-text">Categories</span>
@@ -259,7 +255,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link   collapsed " href="#"
+                                            <a class="nav-link  " href="#"
                                                 data-bs-toggle="collapse" data-bs-target="#navCategoriesOrders" aria-expanded="false"
                                                 aria-controls="navCategoriesOrders">
                                                 <div class="d-flex align-items-center">
@@ -267,19 +263,19 @@
                                                     <span class="nav-link-text">Orders</span>
                                                 </div>
                                             </a>
-                                            <div id="navCategoriesOrders" class="collapse "
+                                            <div id="navCategoriesOrders" class="collapse  show "
                                                 data-bs-parent="#sideNavbar">
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item ">
                                                         <a class="nav-link "
-                                                            href="order-list.html">
+                                                            href="order-list.php">
                                                             List
                                                         </a>
                                                     </li>
                                                     <!-- Nav item -->
                                                     <li class="nav-item ">
-                                                        <a class="nav-link "
-                                                            href="order-single.html">
+                                                        <a class="nav-link  active "
+                                                            href="order-single.php">
                                                             Single
 
                                                         </a>
@@ -289,7 +285,7 @@
                                         </li>
 
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="vendor-grid.html">
+                                            <a class="nav-link " href="vendor-grid.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-shop"></i></span>
                                                     <span class="nav-link-text">Sellers / Vendors</span>
@@ -297,7 +293,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="customers.html">
+                                            <a class="nav-link " href="customers.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-people"></i></span>
                                                     <span class="nav-link-text">Customers</span>
@@ -305,7 +301,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="reviews.html">
+                                            <a class="nav-link " href="reviews.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-star"></i></span>
                                                     <span class="nav-link-text">Reviews</span>
@@ -464,7 +460,7 @@
                             <nav class="navbar-vertical-nav offcanvas offcanvas-start navbar-offcanvac" tabindex="-1" id="offcanvasExample" >
                                 <div class="navbar-vertical">
                                                 <div class="px-4 py-5 d-flex justify-content-between align-items-center">
-                                                    <a href="../index.html" class="navbar-brand">
+                                                    <a href="../index.php" class="navbar-brand">
                                                         <img src="../assets/images/logo/freshcart-logo.svg" alt="">
                                                     </a>
                                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -472,7 +468,7 @@
                                                 <div class="navbar-vertical-content flex-grow-1" data-simplebar="">
                                                     <ul class="navbar-nav flex-column">
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="index.html" >
+                                                            <a class="nav-link " href="index.php" >
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-house"></i></span>
                                                                     <span>Dashboard</span>
@@ -482,7 +478,7 @@
                                                         <li class="nav-item mt-6 mb-3">
                                                             <span class="nav-label">Store Managements</span></li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link "  href="products.html">
+                                                            <a class="nav-link "  href="products.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-cart"></i></span>
                                                                     <span class="nav-link-text">Products</span>
@@ -490,7 +486,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link  active " href="categories.html">
+                                                            <a class="nav-link " href="categories.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-list-task"></i></span>
                                                                     <span class="nav-link-text">Categories</span>
@@ -498,7 +494,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a class="nav-link   collapsed " href="#"
+                                                            <a class="nav-link  " href="#"
                                                                 data-bs-toggle="collapse" data-bs-target="#navOrders" aria-expanded="false"
                                                                 aria-controls="navOrders">
                                                                 <div class="d-flex align-items-center">
@@ -506,19 +502,19 @@
                                                                     <span class="nav-link-text">Orders</span>
                                                                 </div>
                                                             </a>
-                                                            <div id="navOrders" class="collapse "
+                                                            <div id="navOrders" class="collapse  show "
                                                                 data-bs-parent="#sideNavbar">
                                                                 <ul class="nav flex-column">
                                                                     <li class="nav-item ">
                                                                         <a class="nav-link "
-                                                                            href="order-list.html">
+                                                                            href="order-list.php">
                                                                             List
                                                                         </a>
                                                                     </li>
                                                                     <!-- Nav item -->
                                                                     <li class="nav-item ">
-                                                                        <a class="nav-link "
-                                                                            href="order-single.html">
+                                                                        <a class="nav-link  active "
+                                                                            href="order-single.php">
                                                                             Single
 
                                                                         </a>
@@ -527,7 +523,7 @@
                                                             </div>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="vendor-grid.html">
+                                                            <a class="nav-link " href="vendor-grid.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-shop"></i></span>
                                                                     <span class="nav-link-text">Sellers / Vendors</span>
@@ -535,7 +531,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="customers.html">
+                                                            <a class="nav-link " href="customers.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-people"></i></span>
                                                                     <span class="nav-link-text">Customers</span>
@@ -543,7 +539,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="reviews.html">
+                                                            <a class="nav-link " href="reviews.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-star"></i></span>
                                                                     <span class="nav-link-text">Reviews</span>
@@ -690,163 +686,278 @@
                                             </nav>
     
 
-               <!-- main -->
-            <main class="main-content-wrapper">
-                   <!-- container -->
-                <div class="container">
-                       <!-- row -->
-                    <div class="row mb-8">
-                        <div class="col-md-12">
-                            <div class="d-md-flex justify-content-between align-items-center">
-                                   <!-- page header -->
-                                <div>
-                                    <h2>Add New Category</h2>
-                                       <!-- breacrumb -->
-                                    <nav aria-label="breadcrumb">
-                                        <ol class="breadcrumb mb-0">
-                                            <li class="breadcrumb-item"><a href="#" class="text-inherit">Dashboard</a></li>
-                                            <li class="breadcrumb-item"><a href="#" class="text-inherit">Categories</a></li>
-                                            <li class="breadcrumb-item active" aria-current="page">Add New Category</li>
-                                        </ol>
-                                    </nav>
-                                </div>
-                                <div>
-                                    <a href="categories.html" class="btn btn-light">Back to Categories</a>
-                                </div>
-                            </div>
-                        </div>
+    <main class="main-content-wrapper">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row mb-8">
+          <div class="col-md-12">
+            <div class="d-md-flex justify-content-between align-items-center">
+              <div>
+                <!-- page header -->
+                <h2>Order Single</h2>
+                 <!-- breacrumb -->
+                 <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="#" class="text-inherit">Dashboard</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Order Single</li>
+                  </ol>
+                </nav>
+              </div>
+              <!-- button -->
+              <div>
+                <a href="#" class="btn btn-primary">Back to all orders</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row ">
+          <div class="col-xl-12 col-12 mb-5">
+            <!-- card -->
+            <div class="card h-100 card-lg">
+              <div class="card-body p-6">
+                <div class="d-md-flex justify-content-between">
+                  <div class="d-flex align-items-center mb-2 mb-md-0">
+                    <h2 class="mb-0">Order ID: #FC001</h2>
+                    <span class="badge bg-light-warning text-dark-warning ms-2">Pending</span>
+                  </div>
+                  <!-- select option -->
+                  <div class="d-md-flex">
+                    <div class="mb-2 mb-md-0">
+                      <select class="form-select">
+                        <option selected>Status</option>
+                        <option value="Success">Success</option>
+                        <option value="Pending">Pending</option>
+                        <option value="Cancel">Cancel</option>
+                      </select>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-12 col-12">
-                            <!-- card -->
-                            <div class="card mb-6 shadow border-0">
-                                <!-- card body -->
-                                <div class="card-body p-6 ">
-                                    <h4 class="mb-5 h5">Category Image</h4>
-                                    <div class="mb-4 d-flex">
-                                        <div class="position-relative" >
-                                            <img class="image  icon-shape icon-xxxl bg-light rounded-4" src="../assets/images/icons/bakery.svg" alt="Image">
-
-                                            <div class="file-upload position-absolute end-0 top-0 mt-n2 me-n1">
-                                                <input type="file" class="file-input ">
-                                                <span class="icon-shape icon-sm rounded-circle bg-white">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pencil-fill text-muted" viewBox="0 0 16 16">
-                                                    <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
-                                                  </svg>
-                                                </span>
-                                              </div>
-                                        </div>
-
-
-
-                                    </div>
-                                    <h4 class="mb-4 h5 mt-5">Category Information</h4>
-
-                                    <div class="row">
-                                        <!-- input -->
-                                        <div class="mb-3 col-lg-6">
-                                            <label class="form-label">Category Name</label>
-                                            <input type="text" class="form-control" placeholder="Category Name"
-                                                required>
-                                        </div>
-                                        <!-- input -->
-                                        <div class="mb-3 col-lg-6">
-                                            <label class="form-label">Slug</label>
-                                            <input type="text" class="form-control" placeholder="Slug" required>
-                                        </div>
-                                        <!-- input -->
-                                        <div class="mb-3 col-lg-6">
-                                            <label class="form-label">Parent Category</label>
-                                            <select class="form-select">
-                                                <option selected>Category Name</option>
-                                                <option value="Dairy, Bread & Eggs">Dairy, Bread & Eggs</option>
-                                                <option value="Snacks & Munchies">Snacks & Munchies</option>
-                                                <option value="Fruits & Vegetables">Fruits & Vegetables</option>
-                                            </select>
-                                        </div>
-                                        <div class="mb-3 col-lg-6">
-                                            <label class="form-label">Date</label>
-                                            <input type="text" class="form-control flatpickr" placeholder="Select Date">
-                                        </div>
-
-                                        <div>
-
-                                        </div>
-                                        <!-- input -->
-                                        <div class="mb-3 col-lg-12 ">
-                                            <label class="form-label">Descriptions</label>
-
-                                            <div class="py-8" id="editor"></div>
-                                        </div>
-
-                                        <!-- input -->
-                                        <div class="mb-3 col-lg-12 ">
-                                            <label class="form-label" id="productSKU">Status</label><br>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="inlineRadio1" value="option1" checked>
-                                                <label class="form-check-label" for="inlineRadio1">Active</label>
-                                            </div>
-                                            <!-- input -->
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="inlineRadio2" value="option2" >
-                                                <label class="form-check-label" for="inlineRadio2">Disabled</label>
-                                            </div>
-                                            <!-- input -->
-
-                                        </div>
-                                        <div class="mb-3 col-lg-12 mt-5 ">
-                                            <h4 class="mb-4 h5">Meta Data</h4>
-                                            <!-- input -->
-                                            <div class="mb-3">
-                                                <label class="form-label">Meta Title</label>
-                                                <input type="text" class="form-control" placeholder="Title">
-                                            </div>
-
-                                            <!-- input -->
-                                            <div class="mb-3">
-                                                <label class="form-label">Meta Description</label>
-                                                <textarea class="form-control" rows="3"
-                                                    placeholder="Meta Description"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <a href="#" class="btn btn-primary">
-                                                Create Product
-                                              </a>
-                                              <a href="#" class="btn btn-secondary ms-2">
-                                                Save
-                                              </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-
+                    <!-- button -->
+                    <div class="ms-md-3">
+                      <a href="#" class="btn btn-primary">Save</a>
+                      <a href="#" class="btn btn-secondary">Download Invoice</a>
                     </div>
+                  </div>
                 </div>
-            </main>
+                <div class="mt-8">
+                  <div class="row">
+                    <!-- address -->
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="mb-6">
+                        <h6>Customer Details</h6>
+                        <p class="mb-1 lh-lg">John Alex<br>
+                          anderalex@example.com<br>
+                          +998 99 22123456</p>
+                        <a href="#">View Profile</a>
+                      </div>
+                    </div>
+                    <!-- address -->
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="mb-6">
+                        <h6>Shipping Address</h6>
+                        <p class="mb-1 lh-lg">Gerg Harvell<br>
+                          568, Suite Ave.<br>
+                          Austrlia, 235153 <br>
+                          Contact No. +91 99999 12345</p>
+
+                      </div>
+                    </div>
+                    <!-- address -->
+                    <div class="col-lg-4 col-md-4 col-12">
+                      <div class="mb-6">
+                        <h6>Order Details</h6>
+                        <p class="mb-1 lh-lg">Order ID: <span class="text-dark">FC001</span><br>
+                          Order Date: <span class="text-dark">October 22, 2023</span><br>
+                          Order Total: <span class="text-dark">$734.28</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="table-responsive">
+                    <!-- Table -->
+                    <table class="table mb-0 text-nowrap table-centered">
+                      <!-- Table Head -->
+                      <thead class="bg-light">
+                        <tr>
+                          <th>Products</th>
+                          <th>Price</th>
+                          <th>Quantity</th>
+                          <th>Total</th>
+                        </tr>
+                      </thead>
+                      <!-- tbody -->
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="#" class="text-inherit">
+                              <div class="d-flex align-items-center">
+                                <div>
+                                  <img src="../assets/images/products/product-img-1.jpg" alt=""
+                                    class="icon-shape icon-lg">
+                                </div>
+                                <div class="ms-lg-4 mt-2 mt-lg-0">
+                                  <h5 class="mb-0 h6">
+                                    Haldiram's Sev Bhujia
+                                  </h5>
+
+                                </div>
+                              </div>
+                            </a>
+                          </td>
+                          <td><span class="text-body">$18.0</span></td>
+                          <td>1</td>
+                          <td>$18.00</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="#" class="text-inherit">
+                              <div class="d-flex align-items-center">
+                                <div>
+                                  <img src="../assets/images/products/product-img-2.jpg" alt=""
+                                    class="icon-shape icon-lg">
+                                </div>
+                                <div class="ms-lg-4 mt-2 mt-lg-0">
+                                  <h5 class="mb-0 h6">
+                                    NutriChoice Digestive
+                                  </h5>
+
+                                </div>
+                              </div>
+                            </a>
+                          </td>
+                          <td><span class="text-body">$24.0</span></td>
+                          <td>1</td>
+                          <td>$24.00</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="#" class="text-inherit">
+                              <div class="d-flex align-items-center">
+                                <div>
+                                  <img src="../assets/images/products/product-img-3.jpg" alt=""
+                                    class="icon-shape icon-lg">
+                                </div>
+                                <div class="ms-lg-4 mt-2 mt-lg-0">
+                                  <h5 class="mb-0 h6">
+                                    Cadbury 5 Star Chocolate
+                                  </h5>
+
+                                </div>
+                              </div>
+                            </a>
+                          </td>
+                          <td><span class="text-body">$32.0</span></td>
+                          <td>1</td>
+                          <td>$32.0</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="#" class="text-inherit">
+                              <div class="d-flex align-items-center">
+                                <div>
+                                  <img src="../assets/images/products/product-img-4.jpg" alt=""
+                                    class="icon-shape icon-lg">
+                                </div>
+                                <div class="ms-lg-4 mt-2 mt-lg-0">
+                                  <h5 class="mb-0 h6">
+                                    Onion Flavour Potato
+                                  </h5>
+
+                                </div>
+                              </div>
+                            </a>
+                          </td>
+                          <td><span class="text-body">$3.0</span></td>
+                          <td>2</td>
+                          <td>$6.0</td>
+                        </tr>
+                        <tr>
+                          <td class="border-bottom-0 pb-0"></td>
+                          <td class="border-bottom-0 pb-0"></td>
+                          <td colspan="1" class="fw-medium text-dark ">
+                            <!-- text -->
+                            Sub Total :
+                          </td>
+                          <td class="fw-medium text-dark ">
+                            <!-- text -->
+                            $80.00
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="border-bottom-0 pb-0"></td>
+                          <td class="border-bottom-0 pb-0"></td>
+                          <td colspan="1" class="fw-medium text-dark ">
+                            <!-- text -->
+                            Shipping Cost
+                          </td>
+                          <td class="fw-medium text-dark  ">
+                            <!-- text -->
+                            $10.00
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td></td>
+                          <td></td>
+                          <td colspan="1" class="fw-semi-bold text-dark ">
+                            <!-- text -->
+                            Grand Total
+                          </td>
+                          <td class="fw-semi-bold text-dark ">
+                            <!-- text -->
+                            $90.00
+                          </td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body p-6">
+                <div class="row">
+                  <div class="col-md-6 mb-4 mb-lg-0">
+                    <h6>Payment Info</h6>
+                    <span>Cash on Delivery</span>
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Notes</h5>
+                    <textarea class="form-control mb-3" rows="3" placeholder="Write note for order"></textarea>
+                    <a href="#" class="btn btn-primary">Save Notes</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+          </div>
 
         </div>
-  
-    <script src="../assets/libs/flatpickr/dist/flatpickr.min.js"></script>
-    <!-- Libs JS -->
+
+      </div>
+
+    </main>
+
+  </div>
+
+
+  <!-- Libs JS -->
 <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
 <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
 
 <!-- Theme JS -->
 <script src="../assets/js/theme.min.js"></script>
-    <script src="../assets/libs/quill/dist/quill.min.js"></script>
-    <script src="../assets/js/vendors/editor.js"></script>
-    <script src="../assets/libs/dropzone/dist/min/dropzone.min.js"></script>
-
 
 </body>
 
 
-<!-- Mirrored from freshcart.codescandy.com/dashboard/add-category.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:28 GMT -->
+<!-- Mirrored from freshcart.codescandy.com/dashboard/order-single.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:11 GMT -->
 </html>

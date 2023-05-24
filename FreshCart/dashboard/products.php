@@ -20,7 +20,7 @@
               </div>
               <!-- button -->
               <div>
-                <a href="add-product.html" class="btn btn-primary">Add Product</a>
+                <a href="add-product.php" class="btn btn-primary">Add Product</a>
               </div>
             </div>
           </div>
@@ -469,5 +469,5 @@
 </body>
 
 
-<!-- Mirrored from freshcart.codescandy.com/dashboard/products.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:08 GMT -->
+<!-- Mirrored from freshcart.codescandy.com/dashboard/products.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:08 GMT -->
 </html>

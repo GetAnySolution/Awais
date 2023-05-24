@@ -21,8 +21,10 @@ if (isset($_POST['login'])) {
         $admin =  mysqli_fetch_assoc($res);
         $adminEmail =  $admin['email'];
         $adminName =  $admin['name'];
+        $adminPic =  $admin['picture'];
         $_SESSION['admin'] = $adminName;
         $_SESSION['email'] = $adminEmail;
+        $_SESSION['pic'] = $adminPic;
 
 
         echo "<script> alert('login success') </script>";
@@ -63,7 +65,7 @@ if (isset($_POST['login'])) {
                                     <p class="text-white-50 mb-5">Please enter your login and password!</p>
 
                                     <div class="form-outline form-white mb-4">
-                                        <input type="email" id="typeEmailX" class="form-control form-control-lg" name="email" value="<?php echo @$_POST['email']?>" />
+                                        <input type="email" id="typeEmailX" class="form-control form-control-lg" name="email" value="<?php echo @$_POST['email'] ?>" />
                                         <label class="form-label" for="typeEmailX">Email</label>
                                     </div>
 

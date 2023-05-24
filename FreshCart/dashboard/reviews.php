@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from freshcart.codescandy.com/dashboard/order-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:11 GMT -->
+<!-- Mirrored from freshcart.codescandy.com/dashboard/reviews.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:13 GMT -->
 <head>
   <!-- Required meta tags -->
 <meta charset="utf-8">
@@ -38,7 +38,8 @@
 </head>
 
 <body>
-  <!-- main -->
+
+
   <nav class="navbar navbar-expand-lg navbar-glass">
     <div class="container-fluid">
         <div class="d-flex justify-content-between align-items-center w-100">
@@ -214,14 +215,14 @@
     </div>
     </div>
 </nav>
-  <!-- main wrapper -->
+  <!-- main wrapper-->
   <div class="main-wrapper">
     <!-- navbar vertical -->
     
             <nav class="navbar-vertical-nav d-none d-xl-block ">
                 <div class="navbar-vertical">
                                 <div class="px-4 py-5">
-                                    <a href="../index.html" class="navbar-brand">
+                                    <a href="../index.php" class="navbar-brand">
                                         <img src="../assets/images/logo/freshcart-logo.svg" alt="">
                                     </a>
                                 </div>
@@ -229,7 +230,7 @@
                                     <ul class="navbar-nav flex-column" id="sideNavbar">
 
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="index.html" >
+                                            <a class="nav-link " href="index.php" >
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-house"></i></span>
                                                     <span class="nav-link-text">Dashboard</span>
@@ -239,7 +240,7 @@
                                         <li class="nav-item mt-6 mb-3">
                                             <span class="nav-label">Store Managements</span></li>
                                         <li class="nav-item ">
-                                            <a class="nav-link "  href="products.html">
+                                            <a class="nav-link "  href="products.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-cart"></i></span>
                                                     <span class="nav-link-text">Products</span>
@@ -247,7 +248,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="categories.html">
+                                            <a class="nav-link " href="categories.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-list-task"></i></span>
                                                     <span class="nav-link-text">Categories</span>
@@ -255,7 +256,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link  " href="#"
+                                            <a class="nav-link   collapsed " href="#"
                                                 data-bs-toggle="collapse" data-bs-target="#navCategoriesOrders" aria-expanded="false"
                                                 aria-controls="navCategoriesOrders">
                                                 <div class="d-flex align-items-center">
@@ -263,19 +264,19 @@
                                                     <span class="nav-link-text">Orders</span>
                                                 </div>
                                             </a>
-                                            <div id="navCategoriesOrders" class="collapse  show "
+                                            <div id="navCategoriesOrders" class="collapse "
                                                 data-bs-parent="#sideNavbar">
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item ">
                                                         <a class="nav-link "
-                                                            href="order-list.html">
+                                                            href="order-list.php">
                                                             List
                                                         </a>
                                                     </li>
                                                     <!-- Nav item -->
                                                     <li class="nav-item ">
-                                                        <a class="nav-link  active "
-                                                            href="order-single.html">
+                                                        <a class="nav-link "
+                                                            href="order-single.php">
                                                             Single
 
                                                         </a>
@@ -285,7 +286,7 @@
                                         </li>
 
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="vendor-grid.html">
+                                            <a class="nav-link " href="vendor-grid.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-shop"></i></span>
                                                     <span class="nav-link-text">Sellers / Vendors</span>
@@ -293,7 +294,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="customers.html">
+                                            <a class="nav-link " href="customers.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-people"></i></span>
                                                     <span class="nav-link-text">Customers</span>
@@ -301,7 +302,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="reviews.html">
+                                            <a class="nav-link  active " href="reviews.php">
                                                 <div class="d-flex align-items-center">
                                                     <span class="nav-link-icon"> <i class="bi bi-star"></i></span>
                                                     <span class="nav-link-text">Reviews</span>
@@ -460,7 +461,7 @@
                             <nav class="navbar-vertical-nav offcanvas offcanvas-start navbar-offcanvac" tabindex="-1" id="offcanvasExample" >
                                 <div class="navbar-vertical">
                                                 <div class="px-4 py-5 d-flex justify-content-between align-items-center">
-                                                    <a href="../index.html" class="navbar-brand">
+                                                    <a href="../index.php" class="navbar-brand">
                                                         <img src="../assets/images/logo/freshcart-logo.svg" alt="">
                                                     </a>
                                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -468,7 +469,7 @@
                                                 <div class="navbar-vertical-content flex-grow-1" data-simplebar="">
                                                     <ul class="navbar-nav flex-column">
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="index.html" >
+                                                            <a class="nav-link " href="index.php" >
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-house"></i></span>
                                                                     <span>Dashboard</span>
@@ -478,7 +479,7 @@
                                                         <li class="nav-item mt-6 mb-3">
                                                             <span class="nav-label">Store Managements</span></li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link "  href="products.html">
+                                                            <a class="nav-link "  href="products.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-cart"></i></span>
                                                                     <span class="nav-link-text">Products</span>
@@ -486,7 +487,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="categories.html">
+                                                            <a class="nav-link " href="categories.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-list-task"></i></span>
                                                                     <span class="nav-link-text">Categories</span>
@@ -494,7 +495,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a class="nav-link  " href="#"
+                                                            <a class="nav-link   collapsed " href="#"
                                                                 data-bs-toggle="collapse" data-bs-target="#navOrders" aria-expanded="false"
                                                                 aria-controls="navOrders">
                                                                 <div class="d-flex align-items-center">
@@ -502,19 +503,19 @@
                                                                     <span class="nav-link-text">Orders</span>
                                                                 </div>
                                                             </a>
-                                                            <div id="navOrders" class="collapse  show "
+                                                            <div id="navOrders" class="collapse "
                                                                 data-bs-parent="#sideNavbar">
                                                                 <ul class="nav flex-column">
                                                                     <li class="nav-item ">
                                                                         <a class="nav-link "
-                                                                            href="order-list.html">
+                                                                            href="order-list.php">
                                                                             List
                                                                         </a>
                                                                     </li>
                                                                     <!-- Nav item -->
                                                                     <li class="nav-item ">
-                                                                        <a class="nav-link  active "
-                                                                            href="order-single.html">
+                                                                        <a class="nav-link "
+                                                                            href="order-single.php">
                                                                             Single
 
                                                                         </a>
@@ -523,7 +524,7 @@
                                                             </div>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="vendor-grid.html">
+                                                            <a class="nav-link " href="vendor-grid.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-shop"></i></span>
                                                                     <span class="nav-link-text">Sellers / Vendors</span>
@@ -531,7 +532,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="customers.html">
+                                                            <a class="nav-link " href="customers.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-people"></i></span>
                                                                     <span class="nav-link-text">Customers</span>
@@ -539,7 +540,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                            <a class="nav-link " href="reviews.html">
+                                                            <a class="nav-link  active " href="reviews.php">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="nav-link-icon"> <i class="bi bi-star"></i></span>
                                                                     <span class="nav-link-text">Reviews</span>
@@ -686,28 +687,21 @@
                                             </nav>
     
 
+    <!-- main -->
     <main class="main-content-wrapper">
-      <!-- container -->
       <div class="container">
-        <!-- row -->
         <div class="row mb-8">
           <div class="col-md-12">
-            <div class="d-md-flex justify-content-between align-items-center">
-              <div>
-                <!-- page header -->
-                <h2>Order Single</h2>
-                 <!-- breacrumb -->
-                 <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a href="#" class="text-inherit">Dashboard</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Order Single</li>
-                  </ol>
-                </nav>
-              </div>
-              <!-- button -->
-              <div>
-                <a href="#" class="btn btn-primary">Back to all orders</a>
-              </div>
+            <div>
+              <!-- page header -->
+              <h2>Reviews</h2>
+              <!-- breacrumb -->
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                  <li class="breadcrumb-item"><a href="#" class="text-inherit">Dashboard</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Reviews</li>
+                </ol>
+              </nav>
 
             </div>
           </div>
@@ -717,232 +711,494 @@
           <div class="col-xl-12 col-12 mb-5">
             <!-- card -->
             <div class="card h-100 card-lg">
-              <div class="card-body p-6">
-                <div class="d-md-flex justify-content-between">
-                  <div class="d-flex align-items-center mb-2 mb-md-0">
-                    <h2 class="mb-0">Order ID: #FC001</h2>
-                    <span class="badge bg-light-warning text-dark-warning ms-2">Pending</span>
+              <div class="p-6 ">
+                <div class="row justify-content-between">
+                  <div class="col-md-4 col-12 mb-2 mb-md-0">
+                    <!-- form -->
+                    <form class="d-flex" role="search">
+                      <input class="form-control" type="search" placeholder="Search Reviews" aria-label="Search">
+                    </form>
                   </div>
-                  <!-- select option -->
-                  <div class="d-md-flex">
-                    <div class="mb-2 mb-md-0">
-                      <select class="form-select">
-                        <option selected>Status</option>
-                        <option value="Success">Success</option>
-                        <option value="Pending">Pending</option>
-                        <option value="Cancel">Cancel</option>
-                      </select>
-                    </div>
-                    <!-- button -->
-                    <div class="ms-md-3">
-                      <a href="#" class="btn btn-primary">Save</a>
-                      <a href="#" class="btn btn-secondary">Download Invoice</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="mt-8">
-                  <div class="row">
-                    <!-- address -->
-                    <div class="col-lg-4 col-md-4 col-12">
-                      <div class="mb-6">
-                        <h6>Customer Details</h6>
-                        <p class="mb-1 lh-lg">John Alex<br>
-                          anderalex@example.com<br>
-                          +998 99 22123456</p>
-                        <a href="#">View Profile</a>
-                      </div>
-                    </div>
-                    <!-- address -->
-                    <div class="col-lg-4 col-md-4 col-12">
-                      <div class="mb-6">
-                        <h6>Shipping Address</h6>
-                        <p class="mb-1 lh-lg">Gerg Harvell<br>
-                          568, Suite Ave.<br>
-                          Austrlia, 235153 <br>
-                          Contact No. +91 99999 12345</p>
-
-                      </div>
-                    </div>
-                    <!-- address -->
-                    <div class="col-lg-4 col-md-4 col-12">
-                      <div class="mb-6">
-                        <h6>Order Details</h6>
-                        <p class="mb-1 lh-lg">Order ID: <span class="text-dark">FC001</span><br>
-                          Order Date: <span class="text-dark">October 22, 2023</span><br>
-                          Order Total: <span class="text-dark">$734.28</span></p>
-                      </div>
-                    </div>
+                  <div class="col-lg-2 col-md-4 col-12">
+                    <!-- main -->
+                    <select class="form-select">
+                      <option selected>Select Rating</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                      <option value="4">Four</option>
+                      <option value="5">Five</option>
+                    </select>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-12">
-                  <div class="table-responsive">
-                    <!-- Table -->
-                    <table class="table mb-0 text-nowrap table-centered">
-                      <!-- Table Head -->
-                      <thead class="bg-light">
-                        <tr>
-                          <th>Products</th>
-                          <th>Price</th>
-                          <th>Quantity</th>
-                          <th>Total</th>
-                        </tr>
-                      </thead>
-                      <!-- tbody -->
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a href="#" class="text-inherit">
-                              <div class="d-flex align-items-center">
-                                <div>
-                                  <img src="../assets/images/products/product-img-1.jpg" alt=""
-                                    class="icon-shape icon-lg">
-                                </div>
-                                <div class="ms-lg-4 mt-2 mt-lg-0">
-                                  <h5 class="mb-0 h6">
-                                    Haldiram's Sev Bhujia
-                                  </h5>
+              <!-- card body -->
+              <div class="card-body p-0">
+                <!-- table -->
+                <div class="table-responsive">
+                  <table class="table table-centered table-hover table-borderless mb-0 table-with-checkbox text-nowrap">
+                    <thead class="bg-light">
+                      <tr>
+                        <th>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkAll">
+                            <label class="form-check-label" for="checkAll">
+                            </label>
+                          </div>
+                        </th>
+                        <th>Product</th>
+                        <th>Name</th>
+                        <th>Reviews</th>
+                        <th>Rating</th>
+                        <th>Date</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
 
-                                </div>
-                              </div>
+                        <td>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="reviewOne">
+                            <label class="form-check-label" for="reviewOne">
+
+                            </label>
+                          </div>
+                        </td>
+
+                        <td><a href="#" class="text-reset">Haldiram's Sev Bhujia</a></td>
+                        <td>Barry McKenzie</td>
+
+                        <td>
+                          <span class="text-truncate">Nice & fresh oranges with value for money..</span>
+                        </td>
+                        <td>
+                          <div>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-light"></i></span>
+                          </div>
+                        </td>
+                        <td>
+                          23 Nov,2022
+                        </td>
+                        <td>
+                          <div class="dropdown">
+                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="feather-icon icon-more-vertical fs-5"></i>
                             </a>
-                          </td>
-                          <td><span class="text-body">$18.0</span></td>
-                          <td>1</td>
-                          <td>$18.00</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a href="#" class="text-inherit">
-                              <div class="d-flex align-items-center">
-                                <div>
-                                  <img src="../assets/images/products/product-img-2.jpg" alt=""
-                                    class="icon-shape icon-lg">
-                                </div>
-                                <div class="ms-lg-4 mt-2 mt-lg-0">
-                                  <h5 class="mb-0 h6">
-                                    NutriChoice Digestive
-                                  </h5>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
 
-                                </div>
-                              </div>
+                        <td class="pe-0">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="reviewTwo">
+                            <label class="form-check-label" for="reviewTwo">
+
+                            </label>
+                          </div>
+                        </td>
+
+                        <td><a href="#" class="text-reset">NutriChoice Digestive</a></td>
+                        <td>Dale Jenkins</td>
+
+                        <td>
+                          <span class="text-truncate">Nice product 👌 quality 👌...</span>
+                        </td>
+                        <td>
+                          <div>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-light"></i></span>
+                          </div>
+                        </td>
+                        <td>
+                          23 Nov,2022
+                        </td>
+                        <td>
+                          <div class="dropdown">
+                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="feather-icon icon-more-vertical fs-5"></i>
                             </a>
-                          </td>
-                          <td><span class="text-body">$24.0</span></td>
-                          <td>1</td>
-                          <td>$24.00</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a href="#" class="text-inherit">
-                              <div class="d-flex align-items-center">
-                                <div>
-                                  <img src="../assets/images/products/product-img-3.jpg" alt=""
-                                    class="icon-shape icon-lg">
-                                </div>
-                                <div class="ms-lg-4 mt-2 mt-lg-0">
-                                  <h5 class="mb-0 h6">
-                                    Cadbury 5 Star Chocolate
-                                  </h5>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
 
-                                </div>
-                              </div>
+                        <td class="pe-0">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkAllThree">
+                            <label class="form-check-label" for="checkAllThree">
+
+                            </label>
+                          </div>
+                        </td>
+
+                        <td><a href="#" class="text-reset">Cadbury 5 Star Chocolate</a></td>
+                        <td>Michael Phillips</td>
+
+                        <td>
+                          <span class="text-truncate">Good quality product delivered...</span>
+                        </td>
+                        <td>
+                          <div>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                          </div>
+                        </td>
+                        <td>
+                          23 Nov,2022
+                        </td>
+                        <td>
+                          <div class="dropdown">
+                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="feather-icon icon-more-vertical fs-5"></i>
                             </a>
-                          </td>
-                          <td><span class="text-body">$32.0</span></td>
-                          <td>1</td>
-                          <td>$32.0</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a href="#" class="text-inherit">
-                              <div class="d-flex align-items-center">
-                                <div>
-                                  <img src="../assets/images/products/product-img-4.jpg" alt=""
-                                    class="icon-shape icon-lg">
-                                </div>
-                                <div class="ms-lg-4 mt-2 mt-lg-0">
-                                  <h5 class="mb-0 h6">
-                                    Onion Flavour Potato
-                                  </h5>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
 
-                                </div>
-                              </div>
+                        <td class="pe-0">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="reviewFour">
+                            <label class="form-check-label" for="reviewFour">
+
+                            </label>
+                          </div>
+                        </td>
+
+                        <td><a href="#" class="text-reset">Onion Flavour Potato</a></td>
+                        <td>James Parker</td>
+
+                        <td>
+                          <span class="text-truncate">Excellent Quality by an Indian company..</span>
+                        </td>
+                        <td>
+                          <div>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                          </div>
+                        </td>
+                        <td>
+                          23 Nov,2022
+                        </td>
+                        <td>
+                          <div class="dropdown">
+                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="feather-icon icon-more-vertical fs-5"></i>
                             </a>
-                          </td>
-                          <td><span class="text-body">$3.0</span></td>
-                          <td>2</td>
-                          <td>$6.0</td>
-                        </tr>
-                        <tr>
-                          <td class="border-bottom-0 pb-0"></td>
-                          <td class="border-bottom-0 pb-0"></td>
-                          <td colspan="1" class="fw-medium text-dark ">
-                            <!-- text -->
-                            Sub Total :
-                          </td>
-                          <td class="fw-medium text-dark ">
-                            <!-- text -->
-                            $80.00
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="border-bottom-0 pb-0"></td>
-                          <td class="border-bottom-0 pb-0"></td>
-                          <td colspan="1" class="fw-medium text-dark ">
-                            <!-- text -->
-                            Shipping Cost
-                          </td>
-                          <td class="fw-medium text-dark  ">
-                            <!-- text -->
-                            $10.00
-                          </td>
-                        </tr>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
 
-                        <tr>
-                          <td></td>
-                          <td></td>
-                          <td colspan="1" class="fw-semi-bold text-dark ">
-                            <!-- text -->
-                            Grand Total
-                          </td>
-                          <td class="fw-semi-bold text-dark ">
-                            <!-- text -->
-                            $90.00
-                          </td>
-                        </tr>
+                        <td class="pe-0">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="reviewFive">
+                            <label class="form-check-label" for="reviewFive">
 
-                      </tbody>
-                    </table>
-                  </div>
+                            </label>
+                          </div>
+                        </td>
+
+                        <td><a href="#" class="text-reset">Salted Instant Popcorn</a></td>
+                        <td>William Hansen</td>
+
+                        <td>
+                          <span class="text-truncate">Very expensive. Cheaper at local stores...</span>
+                        </td>
+                        <td>
+                          <div>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-light"></i></span>
+                          </div>
+                        </td>
+                        <td>
+                          23 Nov,2022
+                        </td>
+                        <td>
+                          <div class="dropdown">
+                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="feather-icon icon-more-vertical fs-5"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+
+                        <td class="pe-0">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="reviewSix">
+                            <label class="form-check-label" for="reviewSix">
+
+                            </label>
+                          </div>
+                        </td>
+
+                        <td><a href="#" class="text-reset">Blueberry Greek Yogurt</a></td>
+                        <td>Helen Speller</td>
+
+                        <td>
+                          <span class="text-truncate">Etiam in felis eget eros dictum</span>
+                        </td>
+                        <td>
+                          <div>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                          </div>
+                        </td>
+                        <td>
+                          23 Nov,2022
+                        </td>
+                        <td>
+                          <div class="dropdown">
+                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="feather-icon icon-more-vertical fs-5"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+
+                        <td class="pe-0">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="reviewSeven">
+                            <label class="form-check-label" for="reviewSeven">
+
+                            </label>
+                          </div>
+                        </td>
+
+                        <td><a href="#" class="text-reset">Britannia Cheese Slices</a></td>
+                        <td>Larry Anderson</td>
+
+                        <td>
+                          <span class="text-truncate">is good but had to wait for a late delivery.</span>
+                        </td>
+                        <td>
+                          <div>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-light"></i></span>
+                          </div>
+                        </td>
+                        <td>
+                          23 Nov,2022
+                        </td>
+                        <td>
+                          <div class="dropdown">
+                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="feather-icon icon-more-vertical fs-5"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+
+                        <td class="pe-0">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="reviewEight">
+                            <label class="form-check-label" for="reviewEight">
+
+                            </label>
+                          </div>
+                        </td>
+
+                        <td><a href="#" class="text-reset">Kellogg's Original Cereals</a></td>
+                        <td>William McCulloch</td>
+
+                        <td>
+                          <span class="text-truncate">Very expensive. Cheaper at local stores</span>
+                        </td>
+                        <td>
+                          <div>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                          </div>
+                        </td>
+                        <td>
+                          23 Nov,2022
+                        </td>
+                        <td>
+                          <div class="dropdown">
+                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="feather-icon icon-more-vertical fs-5"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+
+                        <td class="pe-0">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="reviewNine">
+                            <label class="form-check-label" for="reviewNine">
+
+                            </label>
+                          </div>
+                        </td>
+
+                        <td><a href="#" class="text-reset">Slurrp Millet Chocolate</a></td>
+                        <td>Louise Brown</td>
+
+                        <td>
+                          <span class="text-truncate">My toddler loved the flavor and enjoys...</span>
+                        </td>
+                        <td>
+                          <div>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-light"></i></span>
+                            <span><i class="bi bi-star-fill text-light"></i></span>
+                            <span><i class="bi bi-star-fill text-light"></i></span>
+                          </div>
+                        </td>
+                        <td>
+                          23 Nov,2022
+                        </td>
+                        <td>
+                          <div class="dropdown">
+                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="feather-icon icon-more-vertical fs-5"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+
+                        <td class="pe-0">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="reviewTen">
+                            <label class="form-check-label" for="reviewTen">
+
+                            </label>
+                          </div>
+                        </td>
+
+                        <td><a href="#" class="text-reset">Amul Butter - 500 g</a></td>
+                        <td>John Meyer</td>
+
+                        <td>
+                          <span class="text-truncate">Good Product but packaging needs...</span>
+                        </td>
+                        <td>
+                          <div>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-warning"></i></span>
+                            <span><i class="bi bi-star-fill text-light"></i></span>
+                            <span><i class="bi bi-star-fill text-light"></i></span>
+                          </div>
+                        </td>
+                        <td>
+                          23 Nov,2022
+                        </td>
+                        <td>
+                          <div class="dropdown">
+                            <a href="#" class="text-reset" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="feather-icon icon-more-vertical fs-5"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-trash me-3"></i>Delete</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="bi bi-pencil-square me-3 "></i>Edit</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+                <div class="border-top d-md-flex justify-content-between align-items-center p-6">
+                  <span>Showing 1 to 8 of 12 entries</span>
+                  <nav class="mt-2 mt-md-0">
+                    <ul class="pagination mb-0 ">
+                      <li class="page-item disabled"><a class="page-link " href="#!">Previous</a></li>
+                      <li class="page-item"><a class="page-link active" href="#!">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#!">Next</a></li>
+                    </ul>
+                  </nav>
                 </div>
               </div>
-              <div class="card-body p-6">
-                <div class="row">
-                  <div class="col-md-6 mb-4 mb-lg-0">
-                    <h6>Payment Info</h6>
-                    <span>Cash on Delivery</span>
-                  </div>
-                  <div class="col-md-6">
-                    <h5>Notes</h5>
-                    <textarea class="form-control mb-3" rows="3" placeholder="Write note for order"></textarea>
-                    <a href="#" class="btn btn-primary">Save Notes</a>
-                  </div>
-                </div>
-              </div>
-
-
-
 
             </div>
 
           </div>
-
         </div>
-
       </div>
-
     </main>
 
   </div>
@@ -959,5 +1215,5 @@
 </body>
 
 
-<!-- Mirrored from freshcart.codescandy.com/dashboard/order-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:11 GMT -->
+<!-- Mirrored from freshcart.codescandy.com/dashboard/reviews.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:13 GMT -->
 </html>
