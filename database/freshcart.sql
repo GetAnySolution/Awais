@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 29, 2023 at 09:19 AM
+-- Generation Time: May 29, 2023 at 10:10 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -94,7 +94,10 @@ INSERT INTO `products` (`id`, `name`, `description`, `catid`, `status`, `price`,
 (2, 'Butter', 'Butter', 7, 1, 22, '2023-05-29 07:17:29', 'product-img-10.jpg', 1),
 (3, 'Cat Feed', 'Pet Food', 6, 1, 50, '2023-05-29 07:09:59', 'product-img-9.jpg', 0),
 (4, 'Lays', 'Snacks', 8, 1, 50, '2023-05-29 07:17:29', 'product-img-4.jpg', 1),
-(5, 'Pop Corn', 'Snacks', 8, 1, 50, '2023-05-29 07:16:32', 'product-img-5.jpg', 1);
+(5, 'Pop Corn', 'Snacks', 8, 1, 50, '2023-05-29 07:16:32', 'product-img-5.jpg', 1),
+(6, 'Biscuits', 'Biscuits', 5, 0, 20, '2023-05-29 08:02:49', 'product-img-2.jpg', 0),
+(7, 'Chocolate', 'Chocolate', 8, 1, 10, '2023-05-29 08:03:26', 'product-img-9.jpg', 0),
+(8, 'Corn Flakes', 'Corn Flakes', 8, 1, 55, '2023-05-29 08:04:24', 'product-img-8.jpg', 0);
 
 --
 -- Indexes for dumped tables
@@ -139,7 +142,7 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- Constraints for dumped tables
