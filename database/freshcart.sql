@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 29, 2023 at 10:10 AM
+-- Generation Time: May 31, 2023 at 10:03 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -65,7 +65,9 @@ INSERT INTO `categories` (`id`, `icon`, `name`, `description`, `date`, `status`)
 (5, 'bakery.svg', 'bakery', 'bakery products', '2023-05-29', 1),
 (6, 'petfoods.svg', 'Pet Foods ', 'Pet Products', '2023-05-29', 1),
 (7, 'dairy.svg', 'Dairy', 'Dairy Products', '2023-05-30', 0),
-(8, 'snacks.svg', 'Snacks ', 'Snacks Products', '2023-05-31', 1);
+(8, 'snacks.svg', 'Snacks ', 'Snacks Products', '2023-05-31', 1),
+(9, 'fruit.svg', 'Fruits & Vegetables', 'Fruits & Vegetables', '2023-05-31', 1),
+(10, 'fish.svg', 'Fish', 'Fish', '2023-05-31', 1);
 
 -- --------------------------------------------------------
 
@@ -97,7 +99,10 @@ INSERT INTO `products` (`id`, `name`, `description`, `catid`, `status`, `price`,
 (5, 'Pop Corn', 'Snacks', 8, 1, 50, '2023-05-29 07:16:32', 'product-img-5.jpg', 1),
 (6, 'Biscuits', 'Biscuits', 5, 0, 20, '2023-05-29 08:02:49', 'product-img-2.jpg', 0),
 (7, 'Chocolate', 'Chocolate', 8, 1, 10, '2023-05-29 08:03:26', 'product-img-9.jpg', 0),
-(8, 'Corn Flakes', 'Corn Flakes', 8, 1, 55, '2023-05-29 08:04:24', 'product-img-8.jpg', 0);
+(8, 'Corn Flakes', 'Corn Flakes', 8, 1, 55, '2023-05-29 08:04:24', 'product-img-8.jpg', 0),
+(9, 'Pineapple', 'Pineapple', 9, 1, 10, '2023-05-31 07:19:20', 'product-img-16.jpg', 1),
+(10, 'Amul Butter', 'Amul Butter', 5, 1, 11, '2023-05-31 07:21:32', 'product-img-10.jpg', 1),
+(11, 'Machli Palla', 'Machli Palla', 10, 1, 11, '2023-05-31 08:00:15', 'product-single-img-4.jpg', 1);
 
 --
 -- Indexes for dumped tables
@@ -136,13 +141,13 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- Constraints for dumped tables

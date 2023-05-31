@@ -1,5 +1,7 @@
 <?php include 'header.php';
-$query = "SELECT * FROM `categories`";
+ $query = "SELECT `icon`, count(`products`.`catid`) as `productCount`,
+ `categories`.`name` ,`categories`.`status` 
+   FROM `products` RIGHT JOIN `categories` ON `products`.`catid` = `categories`.`id` GROUP BY `categories`.`name`";
 $res = mysqli_query($conn, $query);
 
 
@@ -92,7 +94,7 @@ $res = mysqli_query($conn, $query);
                         <a href="#!"> <img src="../assets/images/icons/<?php echo $row['icon'] ?>" alt="" class="icon-shape icon-sm"></a>
                       </td>
                       <td><a href="#" class="text-reset"><?php echo $row['name'] ?></a></td>
-                      <td>0</td>
+                      <td><?php echo $row['productCount'] ?></td>
 
                       <td>
                         <?php if ($row['status'] == '1') {
