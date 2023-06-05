@@ -26,6 +26,15 @@ if (isset($_POST['login'])) {
         $_SESSION['email'] = $adminEmail;
         $_SESSION['pic'] = $adminPic;
 
+        if(isset($_POST['rememberme'])){
+        setcookie('email',$adminEmail,time()+3600,'/');
+        setcookie('password',$password,time()+3600,'/');
+    }else{
+        setcookie('email',$adminEmail,time()-3600,'/');
+        setcookie('password',$password,time()-3600,'/');
+
+
+    }
 
         echo "<script> alert('login success') </script>";
         echo "<script> window.location.href = 'index.php' </script>";
@@ -65,13 +74,17 @@ if (isset($_POST['login'])) {
                                     <p class="text-white-50 mb-5">Please enter your login and password!</p>
 
                                     <div class="form-outline form-white mb-4">
-                                        <input type="email" id="typeEmailX" class="form-control form-control-lg" name="email" value="<?php echo @$_POST['email'] ?>" />
+                                        <input type="email" id="typeEmailX" class="form-control form-control-lg" name="email" value="<?php echo @$_COOKIE['email'] ?>" />
                                         <label class="form-label" for="typeEmailX">Email</label>
                                     </div>
 
                                     <div class="form-outline form-white mb-4">
-                                        <input type="password" id="typePasswordX" class="form-control form-control-lg" name="password" />
+                                        <input type="password" id="typePasswordX" class="form-control form-control-lg" name="password" value="<?php echo @$_COOKIE['password'] ?>"/>
                                         <label class="form-label" for="typePasswordX">Password</label>
+                                    </div>
+                                    <div class="form-outline form-white mb-4">
+                                        <input type="checkbox" id="typePasswordX" name="rememberme" <?php if(isset($_COOKIE['email'])){  echo "checked";} ?> />
+                                        <label class="form-label" for="typePasswordX">Remeber Me </label>
                                     </div>
 
                                     <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>

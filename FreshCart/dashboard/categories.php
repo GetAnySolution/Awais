@@ -22,7 +22,7 @@ $res = mysqli_query($conn, $query);
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb mb-0">
                 <li class="breadcrumb-item"><a href="#" class="text-inherit">Dashboard</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Categories</li>
+                <li class="breadcrumb-item active" aria-current="page">Categories <?php print_r($_COOKIE) ?> </li>
               </ol>
             </nav>
           </div>

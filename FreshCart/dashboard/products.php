@@ -24,7 +24,7 @@ $res = mysqli_query($conn, $products);
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb mb-0">
                 <li class="breadcrumb-item"><a href="#" class="text-inherit">Dashboard</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Products</li>
+                <li class="breadcrumb-item active" aria-current="page">Products <?php print_r($_COOKIE) ?></li>
               </ol>
             </nav>
           </div>

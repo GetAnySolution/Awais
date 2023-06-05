@@ -1161,7 +1161,7 @@
         <div class="row">
           <div class="col-12 mb-6">
 
-            <h3 class="mb-0">Popular Products</h3>
+            <h3 class="mb-0">Popular Products </h3>
 
           </div>
         </div>

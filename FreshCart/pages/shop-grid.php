@@ -1025,6 +1025,7 @@
                   <!-- title -->
                   <h5 class="mb-3">Categories</h5>
 
+                  <ul class="nav nav-category" id="categoryCollapseMenu">
                   <?php include 'config.php';
                   $categories = "SELECT `name` , `id` FROM `categories`";
                   $categoriesRes = mysqli_query($conn, $categories);
@@ -1038,8 +1039,9 @@
 
 
                     <!-- nav -->
-                    <ul class="nav nav-category" id="categoryCollapseMenu">
-                      <li class="nav-item border-bottom w-100 collapsed" data-bs-toggle="collapse" data-bs-target="#categoryFlush<?php echo $row['id'] ?>" aria-expanded="false" aria-controls="categoryFlush<?php echo $row['id'] ?>"><a href="#" class="nav-link">
+                      <li class="nav-item border-bottom w-100 collapsed" data-bs-toggle="collapse" 
+                      data-bs-target="#categoryFlush<?php echo $row['id'] ?>" aria-expanded="false" 
+                      aria-controls="categoryFlush<?php echo $row['id'] ?>"><a href="#" class="nav-link">
                           <?php echo $row['name'] ?>
                           <i class="feather-icon icon-chevron-right"></i></a>
                         <!-- accordion collapse -->
@@ -1069,8 +1071,8 @@
                       </li>
                       <!-- nav item -->
 
+                      <?php } ?>
                     </ul>
-                  <?php } ?>
                 </div>
 
                 <div class="mb-8">
