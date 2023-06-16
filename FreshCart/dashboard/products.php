@@ -24,7 +24,7 @@ $res = mysqli_query($conn, $products);
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb mb-0">
                 <li class="breadcrumb-item"><a href="#" class="text-inherit">Dashboard</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Products <?php print_r($_COOKIE) ?></li>
+                <li class="breadcrumb-item active" aria-current="page">Products </li>
               </ol>
             </nav>
           </div>
@@ -45,7 +45,7 @@ $res = mysqli_query($conn, $products);
               <!-- form -->
               <div class="col-lg-4 col-md-6 col-12 mb-2 mb-lg-0">
                 <form class="d-flex" role="search">
-                  <input class="form-control" type="search" placeholder="Search Products" aria-label="Search">
+                  <input class="form-control" type="search" id="searchProduct" placeholder="Search Products" aria-label="Search">
                 </form>
               </div>
               <!-- select option -->
@@ -83,7 +83,7 @@ $res = mysqli_query($conn, $products);
                     <th></th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody id="tableBody">
                   <?php while ($row = mysqli_fetch_assoc($res)) { ?>
                     <tr>
 
@@ -105,19 +105,15 @@ $res = mysqli_query($conn, $products);
                         <?php if ($row['inStock'] == 1 and $row['productStatus'] == 1) {
 
                           echo "  <span class='badge bg-light-primary text-dark-primary'>Active</span>";
-                        } elseif (!$row['inStock'] == 1 and $row['productStatus'] == 1){
+                        } elseif (!$row['inStock'] == 1 and $row['productStatus'] == 1) {
 
 
                           echo "  <span class='badge bg-light-warning text-dark-warning'>Out of Stock</span>";
-
-
-                        }else{
+                        } else {
 
                           echo "  <span class='badge bg-light-danger text-dark-danger'>Deactive</span>";
-
-
                         } ?>
-        
+
                       </td>
                       <td><?php echo $row['price'] ?></td>
                       <td><?php echo $row['createdAt'] ?></td>
@@ -176,6 +172,54 @@ $res = mysqli_query($conn, $products);
 <script src="../assets/js/theme.min.js"></script>
 
 </body>
+
+
+<script>
+  $(document).ready(function() {
+
+    $('#searchProduct').on('keyup', function() {
+
+      searchPro = $(this).val();
+      // console.log(searchPro);
+
+
+      $.ajax(
+
+        {
+          url: "ajax-search.php",
+          type: "POST",
+          data: {
+            searchProduct: searchPro
+          },
+          success: function(data) {
+
+
+            $("#tableBody").html(data)
+
+
+
+          }
+
+
+
+
+        }
+
+
+      )
+
+
+
+    })
+
+
+
+
+
+
+
+  })
+</script>
 
 
 <!-- Mirrored from freshcart.codescandy.com/dashboard/products.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Mar 2023 10:11:08 GMT -->

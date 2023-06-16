@@ -64,10 +64,10 @@ if(!isset($_SESSION['admin'])){
                   </svg>
             </a>
 
-                <form role="search">
+                <!-- <form role="search">
                     <input class="form-control" type="search" placeholder="Search" aria-label="Search">
 
-                </form>
+                </form> -->
             </div>
             <div>
                 <ul class="list-unstyled d-flex align-items-center mb-0 ms-5 ms-lg-0">
