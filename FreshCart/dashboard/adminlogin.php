@@ -5,6 +5,7 @@ if (isset($_SESSION['admin'])) {
 
     echo "<script> window.location.href = 'index.php' </script>";
 }
+// hassan@gmail.com' -- ";//
 
 // print_r($_SESSION);
 if (isset($_POST['login'])) {
@@ -74,7 +75,7 @@ if (isset($_POST['login'])) {
                                     <p class="text-white-50 mb-5">Please enter your login and password!</p>
 
                                     <div class="form-outline form-white mb-4">
-                                        <input type="email" id="typeEmailX" class="form-control form-control-lg" name="email" value="<?php echo @$_COOKIE['email'] ?>" />
+                                        <input type="text" id="typeEmailX" class="form-control form-control-lg" name="email" value="<?php echo @$_COOKIE['email'] ?>" />
                                         <label class="form-label" for="typeEmailX">Email</label>
                                     </div>
 

@@ -50,11 +50,11 @@ $res = mysqli_query($conn, $products);
               </div>
               <!-- select option -->
               <div class="col-lg-2 col-md-4 col-12">
-                <select class="form-select">
-                  <option selected>Status</option>
+                <select id="filter" class="form-select">
+                  <option disabled selected>Status</option>
                   <option value="1">Active</option>
-                  <option value="2">Deactive</option>
-                  <option value="3">Draft</option>
+                  <option value="0">Deactive</option>
+                  <option value="2">Out of Stock</option>
                 </select>
               </div>
             </div>
@@ -209,6 +209,41 @@ $res = mysqli_query($conn, $products);
       )
 
 
+
+    })
+
+
+    $("#filter").on('change',function (){
+
+console.log("On Change Triggered !");
+filterValue = $(this).val();
+console.log(filterValue)
+
+$.ajax(
+  {
+
+    url: "ajax-filter.php",
+          type: "POST",
+          data: {
+            productStatus: filterValue
+
+          },
+success: function (data){
+
+  $("#tableBody").html(data)
+
+
+}
+
+
+
+
+
+
+  }
+
+
+)
 
     })
 
